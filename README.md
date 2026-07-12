@@ -12,7 +12,6 @@ SIT-Insight is a frontend prototype designed to present machine-learning predict
 
 - **Core Framework:** React with TypeScript and Vite 6
 - **Styling:** Tailwind CSS (utility-based layout configuration) and Radix UI / shadcn
-- **Data Visualization:** Recharts (temporal time-series line plots)
 - **Localization:** i18next / react-i18next (German and English translations)
 - **Icons:** Lucide React
 
