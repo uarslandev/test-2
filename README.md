@@ -98,7 +98,7 @@ One mock case is pre-configured in the repository. To access it, you must first 
    cp .env.example .env
    ```
 2. **Access Tokens**:
-   The local access tokens are defined in your `.env` file:
+   The local access tokens are defined in your `.env`, for example file:
    - **Patient #52560**: Defined by `VITE_PATIENT_TOKEN_1` (e.g. `example_token_1`)
    - **Patient #67269**: Defined by `VITE_PATIENT_TOKEN_2` (e.g. `example_token_2`)
 
