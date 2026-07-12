@@ -105,8 +105,8 @@ One mock case is pre-configured in the repository. To access it, you must first 
 3. **Logging In**:
    * **Input Box**: Navigate to `http://localhost:2346/` (also port `2346` if running via Docker) and paste the token value into the security access input field.
    * **Direct URL**: Navigate directly using the token in the URL path:
-     - `http://localhost:5173/<VITE_PATIENT_TOKEN_1>`
-     - `http://localhost:5173/<VITE_PATIENT_TOKEN_2>`
+     - `http://localhost:2346/<VITE_PATIENT_TOKEN_1>`
+     - `http://localhost:2346/<VITE_PATIENT_TOKEN_2>`
 
 Once logged in, you can switch between the three workflow modes (Screening, In-Depth Assessment, and Learning) using the top navigation header.
 
