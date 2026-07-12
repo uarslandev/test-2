@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-06-14T17:11:13.443930+00:00",
+  "participant_id": "67869",
+  "parameters": {
+    "formats": [
+      "svg",
+      "png"
+    ],
+    "case_assets": true,
+    "reference_assets": true,
+    "learning_assets": true,
+    "use_bundle_cache": true,
+    "allow_unmapped_features": false
+  },
+  "n_json_files_created": 0,
+  "n_svg_files_created": 315,
+  "n_png_files_created": 315,
+  "n_metadata_json_created": 315,
+  "n_assets": 315,
+  "missing_or_failed_assets": [],
+  "skipped_contexts": [],
+  "prototypes_selected": [
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "gender_context": "all",
+      "prototype_id": "UV368972"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "gender_context": "all",
+      "prototype_id": "pre-94-008"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "gender_context": "all",
+      "prototype_id": "pre-94-053"
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "gender_context": "all",
+      "prototype_id": "pre-94-054"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "gender_context": "all",
+      "prototype_id": "pre-91-066"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "gender_context": "female",
+      "prototype_id": "29952"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "gender_context": "female",
+      "prototype_id": "UD534715"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "gender_context": "female",
+      "prototype_id": "XK988979"
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "gender_context": "female",
+      "prototype_id": "KD385355"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "gender_context": "female",
+      "prototype_id": "GP213121"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "gender_context": "male",
+      "prototype_id": "DQ571687"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "gender_context": "male",
+      "prototype_id": "UG429428"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "gender_context": "male",
+      "prototype_id": "SL123551"
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "gender_context": "male",
+      "prototype_id": "ST268519"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "gender_context": "male",
+      "prototype_id": "US366349"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "gender_context": "all",
+      "prototype_id": "pre-01-062"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "gender_context": "all",
+      "prototype_id": "pre-04-003"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "gender_context": "all",
+      "prototype_id": "pre-02-064"
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "gender_context": "all",
+      "prototype_id": "1331"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "gender_context": "all",
+      "prototype_id": "pre-04-011"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "gender_context": "female",
+      "prototype_id": "92562"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "gender_context": "female",
+      "prototype_id": "VA087261"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "gender_context": "female",
+      "prototype_id": "XR573957"
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "gender_context": "female",
+      "prototype_id": "YN534972"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "gender_context": "female",
+      "prototype_id": "106652"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "gender_context": "male",
+      "prototype_id": "DM195412"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "gender_context": "male",
+      "prototype_id": "XU914716"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "gender_context": "male",
+      "prototype_id": "PP667322"
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "gender_context": "male",
+      "prototype_id": "AW432825"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "gender_context": "male",
+      "prototype_id": "AW432825"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "gender_context": "all",
+      "prototype_id": "1350"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "gender_context": "all",
+      "prototype_id": "1418"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "gender_context": "all",
+      "prototype_id": "1334"
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "gender_context": "all",
+      "prototype_id": "11145"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "gender_context": "all",
+      "prototype_id": "11382"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "gender_context": "female",
+      "prototype_id": "1350"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "gender_context": "female",
+      "prototype_id": "1418"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "gender_context": "female",
+      "prototype_id": "22980"
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "gender_context": "female",
+      "prototype_id": "11145"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "gender_context": "female",
+      "prototype_id": "11382"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "gender_context": "male",
+      "prototype_id": "988"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "gender_context": "male",
+      "prototype_id": "988"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "gender_context": "male",
+      "prototype_id": "17770"
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "gender_context": "male",
+      "prototype_id": "11235"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "gender_context": "male",
+      "prototype_id": "1351"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "gender_context": "all",
+      "prototype_id": "16896"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "gender_context": "all",
+      "prototype_id": "1333"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "gender_context": "all",
+      "prototype_id": "HB613993"
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "gender_context": "all",
+      "prototype_id": "NL598558"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "gender_context": "all",
+      "prototype_id": "TX114639"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "gender_context": "female",
+      "prototype_id": "HS221444"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "gender_context": "female",
+      "prototype_id": "679"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "gender_context": "female",
+      "prototype_id": "HB613993"
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "gender_context": "female",
+      "prototype_id": "NL598558"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "gender_context": "female",
+      "prototype_id": "TX114639"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "gender_context": "male",
+      "prototype_id": "37139"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "gender_context": "male",
+      "prototype_id": "51242"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "gender_context": "male",
+      "prototype_id": "QL214527"
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "gender_context": "male",
+      "prototype_id": "LT276136"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "gender_context": "male",
+      "prototype_id": "1546"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "gender_context": "all",
+      "prototype_id": "pre-81-213"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "gender_context": "all",
+      "prototype_id": "pre-81-039"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "gender_context": "all",
+      "prototype_id": "pre-81-181"
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "gender_context": "all",
+      "prototype_id": "pre-81-189"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "gender_context": "all",
+      "prototype_id": "pre-81-153"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "gender_context": "female",
+      "prototype_id": "FK815797"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "gender_context": "female",
+      "prototype_id": "AL836112"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "gender_context": "female",
+      "prototype_id": "AL836112"
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "gender_context": "female",
+      "prototype_id": "AT537872"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "gender_context": "female",
+      "prototype_id": "FK815797"
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "gender_context": "male",
+      "prototype_id": "11030"
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "gender_context": "male",
+      "prototype_id": "11030"
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "gender_context": "male",
+      "prototype_id": "ZX622868"
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "gender_context": "male",
+      "prototype_id": "ZX622868"
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "gender_context": "male",
+      "prototype_id": "4866"
+    }
+  ],
+  "unmapped_labels": [],
+  "json_files_linked": [
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/in_depth_feature_tables.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/patient_deviation_tables.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/learning/prototypical_cases.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/reference/reference_group_stats.json"
+  ],
+  "timing_seconds": 1185.96
+}

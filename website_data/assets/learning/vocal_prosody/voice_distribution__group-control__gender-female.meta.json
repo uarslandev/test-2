@@ -1,0 +1,26 @@
+{
+  "plot_key": "learning/control/female/vocal_prosody/voice_distribution",
+  "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.svg",
+  "png_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.png",
+  "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.png",
+  "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.meta.json",
+  "modality": "vocal_prosody",
+  "reference_group": "control",
+  "reference_group_display": "Control group",
+  "gender_context": "female",
+  "participant_id": null,
+  "prototype_id": "XK988979",
+  "plot_type": "violin_distribution",
+  "feature_names_shown": [
+    "Pitch variability",
+    "Loudness variability",
+    "Speech rate"
+  ],
+  "feature_ids": [
+    "voice::pitch_variability",
+    "voice::loudness_variability",
+    "voice::speech_rate"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 40
+}

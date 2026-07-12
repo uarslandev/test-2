@@ -1,0 +1,24 @@
+{
+  "plot_key": "learning/adhd/male/mimicry/mimicry_distribution",
+  "svg_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.svg",
+  "png_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.png",
+  "preview_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.png",
+  "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.meta.json",
+  "modality": "mimicry",
+  "reference_group": "adhd",
+  "reference_group_display": "ADHD",
+  "gender_context": "male",
+  "participant_id": null,
+  "prototype_id": "1351",
+  "plot_type": "box_distribution",
+  "feature_names_shown": [
+    "Peak smile alignment",
+    "Peak smile-pattern similarity"
+  ],
+  "feature_ids": [
+    "mimicry::peak_smile_alignment",
+    "mimicry::peak_smile_pattern_similarity"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 4
+}

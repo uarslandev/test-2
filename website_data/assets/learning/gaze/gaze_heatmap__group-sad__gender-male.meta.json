@@ -1,0 +1,19 @@
+{
+  "plot_key": "learning/sad/male/gaze/gaze_heatmap",
+  "svg_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.svg",
+  "png_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.png",
+  "preview_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.png",
+  "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.meta.json",
+  "modality": "gaze",
+  "reference_group": "sad",
+  "reference_group_display": "Social anxiety disorder (SAD)",
+  "gender_context": "male",
+  "participant_id": null,
+  "prototype_id": "11030",
+  "plot_type": "gaze_heatmap",
+  "feature_names_shown": [
+    "Gaze density"
+  ],
+  "source_table": "gaze_raw[id==11030]",
+  "reference_group_n": 3
+}

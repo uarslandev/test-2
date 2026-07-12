@@ -1,0 +1,25 @@
+{
+  "plot_key": "case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust",
+  "svg_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.svg",
+  "png_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.png",
+  "preview_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.png",
+  "metadata_json_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "sad",
+  "reference_group_display": "Social anxiety disorder (SAD)",
+  "gender_context": "female",
+  "participant_id": "67869",
+  "prototype_id": null,
+  "plot_type": "facial_reference_trace",
+  "signal_category": "disgust",
+  "signal_category_display": "Negative-affect AUs",
+  "feature_names_shown": [
+    "Negative-affect AUs"
+  ],
+  "raw_trace_columns": [
+    "AU04_r",
+    "AU09_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 4
+}

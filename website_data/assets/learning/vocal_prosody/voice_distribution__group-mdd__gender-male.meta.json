@@ -1,0 +1,26 @@
+{
+  "plot_key": "learning/mdd/male/vocal_prosody/voice_distribution",
+  "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.svg",
+  "png_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.png",
+  "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.png",
+  "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.meta.json",
+  "modality": "vocal_prosody",
+  "reference_group": "mdd",
+  "reference_group_display": "Depressive disorder (MDD/DD)",
+  "gender_context": "male",
+  "participant_id": null,
+  "prototype_id": "QL214527",
+  "plot_type": "violin_distribution",
+  "feature_names_shown": [
+    "Pitch variability",
+    "Loudness variability",
+    "Speech rate"
+  ],
+  "feature_ids": [
+    "voice::pitch_variability",
+    "voice::loudness_variability",
+    "voice::speech_rate"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 12
+}

@@ -1,0 +1,2114 @@
+{
+  "participant_id": "67869",
+  "modalities": {
+    "facial": [
+      {
+        "feature_id": "facial::smile_intensity",
+        "modality": "facial",
+        "display_name": "Smile intensity",
+        "raw_feature_columns": [
+          "AU06_r_mean",
+          "AU12_r_mean"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "AU intensity (0-5, OpenFace)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate stronger, more frequent smiling.",
+        "tooltip": "Mean intensity of smile-related action units (AU06 cheek raiser + AU12 lip-corner puller).",
+        "display_order": 0,
+        "patient_value": 0.4438,
+        "references": {
+          "control": {
+            "reference_mean": 0.6023,
+            "reference_std": 0.4522,
+            "deviation_z_score": -0.351,
+            "percentile": 40.91,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.4651,
+            "reference_std": 0.4484,
+            "deviation_z_score": -0.048,
+            "percentile": 56.49,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.3537,
+            "reference_std": 0.297,
+            "deviation_z_score": 0.303,
+            "percentile": 70.59,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.4396,
+            "reference_std": 0.3956,
+            "deviation_z_score": 0.011,
+            "percentile": 55.17,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.5888,
+            "reference_std": 0.4846,
+            "deviation_z_score": -0.299,
+            "percentile": 47.5,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "facial::smile_variability",
+        "modality": "facial",
+        "display_name": "Smile variability",
+        "raw_feature_columns": [
+          "AU06_r_std",
+          "AU12_r_std"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "AU intensity SD",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable / dynamic smiling over time.",
+        "tooltip": "Temporal variability (standard deviation) of smile-related action units (AU06 + AU12).",
+        "display_order": 1,
+        "patient_value": 0.2248,
+        "references": {
+          "control": {
+            "reference_mean": 0.2765,
+            "reference_std": 0.1516,
+            "deviation_z_score": -0.341,
+            "percentile": 37.5,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.2125,
+            "reference_std": 0.1526,
+            "deviation_z_score": 0.081,
+            "percentile": 60.39,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.2825,
+            "reference_std": 0.1786,
+            "deviation_z_score": -0.323,
+            "percentile": 47.06,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.2396,
+            "reference_std": 0.1602,
+            "deviation_z_score": -0.092,
+            "percentile": 51.72,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.2512,
+            "reference_std": 0.1328,
+            "deviation_z_score": -0.199,
+            "percentile": 47.5,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "facial::brow_lowering",
+        "modality": "facial",
+        "display_name": "Brow lowering / negative facial affect",
+        "raw_feature_columns": [
+          "AU04_r_mean"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "AU intensity (0-5, OpenFace)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more brow lowering / negative facial affect.",
+        "tooltip": "Mean intensity of AU04 (brow lowerer), a marker of negative or concentrated affect.",
+        "display_order": 2,
+        "patient_value": 0.5095,
+        "references": {
+          "control": {
+            "reference_mean": 0.5377,
+            "reference_std": 0.7035,
+            "deviation_z_score": -0.04,
+            "percentile": 63.07,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.4954,
+            "reference_std": 0.6031,
+            "deviation_z_score": 0.023,
+            "percentile": 63.64,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.4466,
+            "reference_std": 0.5017,
+            "deviation_z_score": 0.125,
+            "percentile": 64.71,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.4604,
+            "reference_std": 0.5765,
+            "deviation_z_score": 0.085,
+            "percentile": 65.52,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.3088,
+            "reference_std": 0.4384,
+            "deviation_z_score": 0.458,
+            "percentile": 77.5,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "facial::brow_lowering_variability",
+        "modality": "facial",
+        "display_name": "Brow lowering variability",
+        "raw_feature_columns": [
+          "AU04_r_std"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "AU intensity SD",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable brow-lowering activity over time.",
+        "tooltip": "Temporal variability (standard deviation) of AU04 (brow lowerer).",
+        "display_order": 3,
+        "patient_value": 0.2806,
+        "references": {
+          "control": {
+            "reference_mean": 0.1858,
+            "reference_std": 0.1259,
+            "deviation_z_score": 0.753,
+            "percentile": 78.98,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.177,
+            "reference_std": 0.1097,
+            "deviation_z_score": 0.944,
+            "percentile": 82.47,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.2174,
+            "reference_std": 0.1444,
+            "deviation_z_score": 0.437,
+            "percentile": 58.82,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.1884,
+            "reference_std": 0.1302,
+            "deviation_z_score": 0.708,
+            "percentile": 86.21,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.1314,
+            "reference_std": 0.0908,
+            "deviation_z_score": 1.643,
+            "percentile": 95.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "facial::overall_facial_expressivity",
+        "modality": "facial",
+        "display_name": "Overall facial expressivity",
+        "raw_feature_columns": [
+          "AU01_r_mean",
+          "AU02_r_mean",
+          "AU04_r_mean",
+          "AU05_r_mean",
+          "AU06_r_mean",
+          "AU07_r_mean",
+          "AU09_r_mean",
+          "AU10_r_mean",
+          "AU12_r_mean",
+          "AU14_r_mean",
+          "AU15_r_mean",
+          "AU17_r_mean",
+          "AU20_r_mean",
+          "AU23_r_mean",
+          "AU25_r_mean",
+          "AU26_r_mean",
+          "AU45_r_mean"
+        ],
+        "raw_feature_pattern": "^AU\\d+_r_mean$",
+        "unit": "AU intensity (0-5, OpenFace)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate greater overall facial expressivity.",
+        "tooltip": "Mean intensity across all available action units.",
+        "display_order": 4,
+        "patient_value": 0.3688,
+        "references": {
+          "control": {
+            "reference_mean": 0.6437,
+            "reference_std": 0.2011,
+            "deviation_z_score": -1.367,
+            "percentile": 7.39,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.6025,
+            "reference_std": 0.2055,
+            "deviation_z_score": -1.137,
+            "percentile": 13.64,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.4565,
+            "reference_std": 0.1099,
+            "deviation_z_score": -0.798,
+            "percentile": 23.53,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.5453,
+            "reference_std": 0.2033,
+            "deviation_z_score": -0.868,
+            "percentile": 13.79,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.5459,
+            "reference_std": 0.1782,
+            "deviation_z_score": -0.994,
+            "percentile": 17.5,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "facial::overall_facial_expressivity_variability",
+        "modality": "facial",
+        "display_name": "Overall facial expressivity variability",
+        "raw_feature_columns": [
+          "AU01_r_std",
+          "AU02_r_std",
+          "AU04_r_std",
+          "AU05_r_std",
+          "AU06_r_std",
+          "AU07_r_std",
+          "AU09_r_std",
+          "AU10_r_std",
+          "AU12_r_std",
+          "AU14_r_std",
+          "AU15_r_std",
+          "AU17_r_std",
+          "AU20_r_std",
+          "AU23_r_std",
+          "AU25_r_std",
+          "AU26_r_std",
+          "AU45_r_std"
+        ],
+        "raw_feature_pattern": "^AU\\d+_r_std$",
+        "unit": "AU intensity SD",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable overall facial expressivity over time.",
+        "tooltip": "Mean temporal variability (standard deviation) across all available action units.",
+        "display_order": 5,
+        "patient_value": 0.2144,
+        "references": {
+          "control": {
+            "reference_mean": 0.2799,
+            "reference_std": 0.0665,
+            "deviation_z_score": -0.983,
+            "percentile": 12.5,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.2651,
+            "reference_std": 0.081,
+            "deviation_z_score": -0.625,
+            "percentile": 25.32,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.2669,
+            "reference_std": 0.0818,
+            "deviation_z_score": -0.641,
+            "percentile": 35.29,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.2762,
+            "reference_std": 0.0904,
+            "deviation_z_score": -0.683,
+            "percentile": 20.69,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.2597,
+            "reference_std": 0.0597,
+            "deviation_z_score": -0.758,
+            "percentile": 22.5,
+            "reference_n": 40
+          }
+        }
+      }
+    ],
+    "gaze": [
+      {
+        "feature_id": "gaze::time_looking_at_screen",
+        "modality": "gaze",
+        "display_name": "Time looking at screen",
+        "raw_feature_columns": [
+          "gaze_mean_view_looks_at_display"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "proportion (0-1)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more visual attention to the screen / stimulus.",
+        "tooltip": "Proportion of valid gaze frames directed at the display region.",
+        "display_order": 0,
+        "patient_value": 0.9439,
+        "references": {
+          "control": {
+            "reference_mean": 0.7378,
+            "reference_std": 0.2619,
+            "deviation_z_score": 0.787,
+            "percentile": 76.14,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.6654,
+            "reference_std": 0.305,
+            "deviation_z_score": 0.913,
+            "percentile": 82.47,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.6293,
+            "reference_std": 0.3483,
+            "deviation_z_score": 0.903,
+            "percentile": 88.24,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.686,
+            "reference_std": 0.3018,
+            "deviation_z_score": 0.854,
+            "percentile": 79.31,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.7652,
+            "reference_std": 0.244,
+            "deviation_z_score": 0.732,
+            "percentile": 85.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "gaze::time_outside_screen",
+        "modality": "gaze",
+        "display_name": "Time outside screen area",
+        "raw_feature_columns": [
+          "gaze_mean_view_looks_at_display"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "proportion (0-1)",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more gaze aversion / looking away from the screen.",
+        "tooltip": "Proportion of valid gaze frames directed away from the display region.",
+        "display_order": 1,
+        "patient_value": 0.0561,
+        "references": {
+          "control": {
+            "reference_mean": 0.2622,
+            "reference_std": 0.2619,
+            "deviation_z_score": -0.787,
+            "percentile": 23.86,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.3346,
+            "reference_std": 0.305,
+            "deviation_z_score": -0.913,
+            "percentile": 17.53,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.3707,
+            "reference_std": 0.3483,
+            "deviation_z_score": -0.903,
+            "percentile": 11.76,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.314,
+            "reference_std": 0.3018,
+            "deviation_z_score": -0.854,
+            "percentile": 20.69,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.2348,
+            "reference_std": 0.244,
+            "deviation_z_score": -0.732,
+            "percentile": 15.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "gaze::horizontal_gaze_variability",
+        "modality": "gaze",
+        "display_name": "Horizontal gaze variability",
+        "raw_feature_columns": [
+          "gaze_std_angle_x"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "radians (SD)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more horizontal eye-movement / scanning.",
+        "tooltip": "Standard deviation of the horizontal gaze angle.",
+        "display_order": 2,
+        "patient_value": 0.0218,
+        "references": {
+          "control": {
+            "reference_mean": 0.03,
+            "reference_std": 0.0139,
+            "deviation_z_score": -0.589,
+            "percentile": 32.95,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.0425,
+            "reference_std": 0.0296,
+            "deviation_z_score": -0.699,
+            "percentile": 21.43,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.0355,
+            "reference_std": 0.0189,
+            "deviation_z_score": -0.724,
+            "percentile": 23.53,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.0348,
+            "reference_std": 0.0162,
+            "deviation_z_score": -0.803,
+            "percentile": 17.24,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.0402,
+            "reference_std": 0.0242,
+            "deviation_z_score": -0.758,
+            "percentile": 25.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "gaze::vertical_gaze_variability",
+        "modality": "gaze",
+        "display_name": "Vertical gaze variability",
+        "raw_feature_columns": [
+          "gaze_std_angle_y"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "radians (SD)",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more vertical eye-movement / scanning.",
+        "tooltip": "Standard deviation of the vertical gaze angle.",
+        "display_order": 3,
+        "patient_value": 0.0455,
+        "references": {
+          "control": {
+            "reference_mean": 0.0509,
+            "reference_std": 0.0165,
+            "deviation_z_score": -0.331,
+            "percentile": 40.91,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.0576,
+            "reference_std": 0.023,
+            "deviation_z_score": -0.529,
+            "percentile": 33.12,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.0481,
+            "reference_std": 0.0171,
+            "deviation_z_score": -0.156,
+            "percentile": 47.06,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.0518,
+            "reference_std": 0.02,
+            "deviation_z_score": -0.32,
+            "percentile": 37.93,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.0567,
+            "reference_std": 0.0206,
+            "deviation_z_score": -0.549,
+            "percentile": 32.5,
+            "reference_n": 40
+          }
+        }
+      }
+    ],
+    "voice": [
+      {
+        "feature_id": "voice::pitch_variability",
+        "modality": "voice",
+        "display_name": "Pitch variability",
+        "raw_feature_columns": [
+          "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "semitones",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more pitch modulation / melodic speech.",
+        "tooltip": "F0 (pitch) variability, percentile range 0-2 in semitones from 27.5 Hz.",
+        "display_order": 0,
+        "patient_value": null,
+        "references": {
+          "control": {
+            "reference_mean": 8.3437,
+            "reference_std": 4.8272,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 10.6151,
+            "reference_std": 6.1791,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 7.5832,
+            "reference_std": 3.4878,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 7.133,
+            "reference_std": 3.1109,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 8.154,
+            "reference_std": 4.1455,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "voice::loudness_variability",
+        "modality": "voice",
+        "display_name": "Loudness variability",
+        "raw_feature_columns": [
+          "loudness_sma3_stddevNorm"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "normalized SD",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more dynamic / variable loudness.",
+        "tooltip": "Normalized standard deviation of loudness.",
+        "display_order": 1,
+        "patient_value": null,
+        "references": {
+          "control": {
+            "reference_mean": 1.0071,
+            "reference_std": 0.2399,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 1.0422,
+            "reference_std": 0.2281,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 1.0791,
+            "reference_std": 0.33,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 1.0699,
+            "reference_std": 0.1887,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.9803,
+            "reference_std": 0.1764,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "voice::speech_rate",
+        "modality": "voice",
+        "display_name": "Speech rate",
+        "raw_feature_columns": [
+          "VoicedSegmentsPerSec"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "segments / second",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate faster speech.",
+        "tooltip": "Voiced segments per second (proxy for speaking rate).",
+        "display_order": 2,
+        "patient_value": null,
+        "references": {
+          "control": {
+            "reference_mean": 1.5914,
+            "reference_std": 0.6697,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 1.6478,
+            "reference_std": 0.7774,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 1.1958,
+            "reference_std": 0.5055,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 1.6723,
+            "reference_std": 0.3933,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 1.2354,
+            "reference_std": 0.4274,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "voice::speech_rate_variability",
+        "modality": "voice",
+        "display_name": "Speech-rate variability",
+        "raw_feature_columns": [
+          "VoicedSegmentsPerSec"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "segments / second (SD)",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable speaking rate across topics.",
+        "tooltip": "Variability of voiced segments per second across SIT phases.",
+        "display_order": 3,
+        "patient_value": null,
+        "references": {
+          "control": {
+            "reference_mean": 0.2796,
+            "reference_std": 0.2006,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.3037,
+            "reference_std": 0.1982,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.2049,
+            "reference_std": 0.1028,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.3041,
+            "reference_std": 0.1885,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.2749,
+            "reference_std": 0.1913,
+            "deviation_z_score": null,
+            "percentile": null,
+            "reference_n": 40
+          }
+        }
+      }
+    ],
+    "head": [
+      {
+        "feature_id": "head::nodding_activity",
+        "modality": "head",
+        "display_name": "Nodding activity",
+        "raw_feature_columns": [
+          "head_std_pitch"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "degrees (SD)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more vertical head movement (nodding).",
+        "tooltip": "Amount of vertical head-pose movement (standard deviation of head pitch).",
+        "display_order": 0,
+        "patient_value": 1.5817,
+        "references": {
+          "control": {
+            "reference_mean": 1.5525,
+            "reference_std": 0.7877,
+            "deviation_z_score": 0.037,
+            "percentile": 67.61,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 1.6888,
+            "reference_std": 1.2668,
+            "deviation_z_score": -0.085,
+            "percentile": 61.69,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 1.9879,
+            "reference_std": 0.6209,
+            "deviation_z_score": -0.654,
+            "percentile": 23.53,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 2.2277,
+            "reference_std": 1.7467,
+            "deviation_z_score": -0.37,
+            "percentile": 41.38,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 1.6878,
+            "reference_std": 0.7228,
+            "deviation_z_score": -0.147,
+            "percentile": 50.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "head::nodding_variability",
+        "modality": "head",
+        "display_name": "Nodding variability",
+        "raw_feature_columns": [
+          "head_iqr_pitch"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "degrees (IQR)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable vertical head movement.",
+        "tooltip": "Spread of vertical head-pose movement (inter-quartile range of head pitch).",
+        "display_order": 1,
+        "patient_value": 1.9791,
+        "references": {
+          "control": {
+            "reference_mean": 1.9396,
+            "reference_std": 1.0996,
+            "deviation_z_score": 0.036,
+            "percentile": 68.75,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 2.0917,
+            "reference_std": 1.7065,
+            "deviation_z_score": -0.066,
+            "percentile": 64.61,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 2.334,
+            "reference_std": 0.8119,
+            "deviation_z_score": -0.437,
+            "percentile": 23.53,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 2.5888,
+            "reference_std": 2.0011,
+            "deviation_z_score": -0.305,
+            "percentile": 53.45,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 1.9961,
+            "reference_std": 0.8792,
+            "deviation_z_score": -0.019,
+            "percentile": 57.5,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "head::horizontal_head_movement",
+        "modality": "head",
+        "display_name": "Horizontal head movement",
+        "raw_feature_columns": [
+          "head_std_yaw"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "degrees (SD)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more horizontal head movement (head shaking / turning).",
+        "tooltip": "Amount of lateral / yaw head movement (standard deviation of head yaw).",
+        "display_order": 2,
+        "patient_value": 0.9145,
+        "references": {
+          "control": {
+            "reference_mean": 1.1138,
+            "reference_std": 0.6172,
+            "deviation_z_score": -0.323,
+            "percentile": 47.73,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 1.3532,
+            "reference_std": 1.4014,
+            "deviation_z_score": -0.313,
+            "percentile": 45.45,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 1.6495,
+            "reference_std": 0.8293,
+            "deviation_z_score": -0.886,
+            "percentile": 17.65,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 1.7419,
+            "reference_std": 1.1433,
+            "deviation_z_score": -0.724,
+            "percentile": 24.14,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 1.3886,
+            "reference_std": 0.9017,
+            "deviation_z_score": -0.526,
+            "percentile": 40.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "head::horizontal_head_movement_variability",
+        "modality": "head",
+        "display_name": "Horizontal head movement variability",
+        "raw_feature_columns": [
+          "head_iqr_yaw"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "degrees (IQR)",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more variable horizontal head movement.",
+        "tooltip": "Spread of lateral / yaw head movement (inter-quartile range of head yaw).",
+        "display_order": 3,
+        "patient_value": 0.9143,
+        "references": {
+          "control": {
+            "reference_mean": 1.3136,
+            "reference_std": 0.7371,
+            "deviation_z_score": -0.542,
+            "percentile": 37.5,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 1.5628,
+            "reference_std": 1.7291,
+            "deviation_z_score": -0.375,
+            "percentile": 35.06,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 1.6687,
+            "reference_std": 0.9283,
+            "deviation_z_score": -0.813,
+            "percentile": 5.88,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 1.6838,
+            "reference_std": 0.9177,
+            "deviation_z_score": -0.838,
+            "percentile": 24.14,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 1.6486,
+            "reference_std": 1.3253,
+            "deviation_z_score": -0.554,
+            "percentile": 27.5,
+            "reference_n": 40
+          }
+        }
+      }
+    ],
+    "mimicry": [
+      {
+        "feature_id": "mimicry::peak_smile_alignment",
+        "modality": "mimicry",
+        "display_name": "Peak smile alignment",
+        "raw_feature_columns": [
+          "mimicry_smile_max_corr_mean"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "correlation (-1 to 1)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate stronger temporal alignment of smiling with the partner.",
+        "tooltip": "Maximum lagged cross-correlation of smile action units with the interaction partner.",
+        "display_order": 0,
+        "patient_value": 0.2692,
+        "references": {
+          "control": {
+            "reference_mean": 0.2008,
+            "reference_std": 0.118,
+            "deviation_z_score": 0.579,
+            "percentile": 71.26,
+            "reference_n": 174
+          },
+          "asc": {
+            "reference_mean": 0.1722,
+            "reference_std": 0.1088,
+            "deviation_z_score": 0.891,
+            "percentile": 82.24,
+            "reference_n": 152
+          },
+          "adhd": {
+            "reference_mean": 0.1971,
+            "reference_std": 0.156,
+            "deviation_z_score": 0.462,
+            "percentile": 64.71,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.1873,
+            "reference_std": 0.1606,
+            "deviation_z_score": 0.51,
+            "percentile": 71.43,
+            "reference_n": 28
+          },
+          "sad": {
+            "reference_mean": 0.1488,
+            "reference_std": 0.122,
+            "deviation_z_score": 0.987,
+            "percentile": 82.05,
+            "reference_n": 39
+          }
+        }
+      },
+      {
+        "feature_id": "mimicry::peak_smile_pattern_similarity",
+        "modality": "mimicry",
+        "display_name": "Peak smile-pattern similarity",
+        "raw_feature_columns": [
+          "mimicry_smile_max_cosine"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "cosine similarity (0-1)",
+        "tier": "primary",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate more similar smile expression patterns to the partner.",
+        "tooltip": "Maximum lag-aware cosine similarity of smile action-unit trajectories with the partner.",
+        "display_order": 1,
+        "patient_value": 0.9843,
+        "references": {
+          "control": {
+            "reference_mean": 0.8619,
+            "reference_std": 0.1632,
+            "deviation_z_score": 0.751,
+            "percentile": 68.97,
+            "reference_n": 174
+          },
+          "asc": {
+            "reference_mean": 0.8291,
+            "reference_std": 0.2003,
+            "deviation_z_score": 0.775,
+            "percentile": 78.95,
+            "reference_n": 152
+          },
+          "adhd": {
+            "reference_mean": 0.8488,
+            "reference_std": 0.2044,
+            "deviation_z_score": 0.663,
+            "percentile": 52.94,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.8534,
+            "reference_std": 0.211,
+            "deviation_z_score": 0.62,
+            "percentile": 57.14,
+            "reference_n": 28
+          },
+          "sad": {
+            "reference_mean": 0.905,
+            "reference_std": 0.1817,
+            "deviation_z_score": 0.437,
+            "percentile": 61.54,
+            "reference_n": 39
+          }
+        }
+      },
+      {
+        "feature_id": "mimicry::response_delay",
+        "modality": "mimicry",
+        "display_name": "Response delay",
+        "raw_feature_columns": [
+          "mimicry_smile_lag_at_max_mean"
+        ],
+        "raw_feature_pattern": null,
+        "unit": "frames",
+        "tier": "advanced",
+        "higher_is_more": true,
+        "direction_interpretation": "Larger values indicate a longer delay before mirroring the partner's smile.",
+        "tooltip": "Lag (in frames) at which the smile cross-correlation peaks.",
+        "display_order": 2,
+        "patient_value": 1.2925,
+        "references": {
+          "control": {
+            "reference_mean": 0.9017,
+            "reference_std": 0.4059,
+            "deviation_z_score": 0.963,
+            "percentile": 83.91,
+            "reference_n": 174
+          },
+          "asc": {
+            "reference_mean": 0.9356,
+            "reference_std": 0.359,
+            "deviation_z_score": 0.994,
+            "percentile": 86.18,
+            "reference_n": 152
+          },
+          "adhd": {
+            "reference_mean": 0.9466,
+            "reference_std": 0.5581,
+            "deviation_z_score": 0.62,
+            "percentile": 76.47,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.9128,
+            "reference_std": 0.4122,
+            "deviation_z_score": 0.921,
+            "percentile": 78.57,
+            "reference_n": 28
+          },
+          "sad": {
+            "reference_mean": 0.9341,
+            "reference_std": 0.3754,
+            "deviation_z_score": 0.955,
+            "percentile": 87.18,
+            "reference_n": 39
+          }
+        }
+      },
+      {
+        "feature_id": "mimicry::normalized_expression_distance",
+        "modality": "mimicry",
+        "display_name": "Normalized expression distance",
+        "raw_feature_columns": [
+          "mimicry_all_selected_mean_dtw_normalized",
+          "mimicry_frown_disgust_mean_dtw_normalized",
+          "mimicry_smile_mean_dtw_normalized"
+        ],
+        "raw_feature_pattern": "^mimicry_.*mean_dtw_normalized$",
+        "unit": "normalized DTW distance",
+        "tier": "advanced",
+        "higher_is_more": false,
+        "direction_interpretation": "Higher values indicate less similar expression dynamics to the partner.",
+        "tooltip": "Length-normalized dynamic-time-warping distance between participant and partner AU trajectories.",
+        "display_order": 3,
+        "patient_value": 0.1745,
+        "references": {
+          "control": {
+            "reference_mean": 0.3818,
+            "reference_std": 0.2433,
+            "deviation_z_score": -0.852,
+            "percentile": 3.98,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 0.4011,
+            "reference_std": 0.1987,
+            "deviation_z_score": -1.14,
+            "percentile": 1.95,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 0.2824,
+            "reference_std": 0.1413,
+            "deviation_z_score": -0.764,
+            "percentile": 11.76,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 0.3389,
+            "reference_std": 0.1825,
+            "deviation_z_score": -0.901,
+            "percentile": 20.69,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 0.3055,
+            "reference_std": 0.0941,
+            "deviation_z_score": -1.392,
+            "percentile": 0.0,
+            "reference_n": 40
+          }
+        }
+      },
+      {
+        "feature_id": "mimicry::granger_temporal_dependency",
+        "modality": "mimicry",
+        "display_name": "Granger-based temporal dependency",
+        "raw_feature_columns": [
+          "mimicry_all_selected_granger_strength_mean",
+          "mimicry_frown_disgust_granger_strength_mean",
+          "mimicry_smile_granger_strength_mean"
+        ],
+        "raw_feature_pattern": "^mimicry_.*granger_strength_mean$",
+        "unit": "granger strength",
+        "tier": "experimental",
+        "higher_is_more": true,
+        "direction_interpretation": "Higher values indicate stronger directed temporal dependency on the partner.",
+        "tooltip": "Granger-causality-based directed dependency from partner to participant.",
+        "display_order": 4,
+        "patient_value": 7.0324,
+        "references": {
+          "control": {
+            "reference_mean": 5.0083,
+            "reference_std": 2.0305,
+            "deviation_z_score": 0.997,
+            "percentile": 91.48,
+            "reference_n": 176
+          },
+          "asc": {
+            "reference_mean": 5.7151,
+            "reference_std": 6.1932,
+            "deviation_z_score": 0.213,
+            "percentile": 81.17,
+            "reference_n": 154
+          },
+          "adhd": {
+            "reference_mean": 8.5267,
+            "reference_std": 10.065,
+            "deviation_z_score": -0.148,
+            "percentile": 64.71,
+            "reference_n": 17
+          },
+          "mdd": {
+            "reference_mean": 5.7765,
+            "reference_std": 2.3533,
+            "deviation_z_score": 0.534,
+            "percentile": 72.41,
+            "reference_n": 29
+          },
+          "sad": {
+            "reference_mean": 4.7777,
+            "reference_std": 1.8902,
+            "deviation_z_score": 1.193,
+            "percentile": 90.0,
+            "reference_n": 40
+          }
+        }
+      }
+    ]
+  },
+  "assets": {
+    "case_67869/control/all/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/control/all/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/all/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/control/all/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/all/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/control/all/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/control/all/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/all/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/control/all/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/control/all/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/control/all/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/control/all/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/control/all/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/control/all/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/control/all/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/control/all/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/control/all/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/control/all/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/all/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/control/all/head_movement/head_distribution": {
+      "plot_key": "case_67869/control/all/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/control/all/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/control/all/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/control/all/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/all/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/control/all/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/control/all/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/control/all/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/control/all/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/control/all/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/all/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/control/female/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/control/female/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/female/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/control/female/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/female/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/control/female/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/control/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/female/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/control/female/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/control/female/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/control/female/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/control/female/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/control/female/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/control/female/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/control/female/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/control/female/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/control/female/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/control/female/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/female/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/control/female/head_movement/head_distribution": {
+      "plot_key": "case_67869/control/female/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/control/female/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/control/female/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/control/female/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/female/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/control/female/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/control/female/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/control/female/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/control/female/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/control/female/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/female/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/control/male/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/control/male/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/male/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/control/male/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/male/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/control/male/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/control/male/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/control/male/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/control/male/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/control/male/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/control/male/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/control/male/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/control/male/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/control/male/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/control/male/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/control/male/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/control/male/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/control/male/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/male/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/control/male/head_movement/head_distribution": {
+      "plot_key": "case_67869/control/male/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/control/male/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/control/male/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/control/male/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/male/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/control/male/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/control/male/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/control/male/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/control/male/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/control/male/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/control/male/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/all/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/asc/all/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/all/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/asc/all/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/all/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/asc/all/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/asc/all/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/asc/all/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/asc/all/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/asc/all/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/asc/all/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/asc/all/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/asc/all/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/asc/all/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/asc/all/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/all/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/asc/all/head_movement/head_distribution": {
+      "plot_key": "case_67869/asc/all/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/asc/all/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/asc/all/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/asc/all/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/all/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/all/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/asc/all/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/asc/all/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/asc/all/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/asc/all/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/all/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/female/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/asc/female/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/female/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/asc/female/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/asc/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/female/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/asc/female/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/asc/female/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/asc/female/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/asc/female/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/asc/female/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/asc/female/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/asc/female/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/asc/female/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/asc/female/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/asc/female/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/female/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/asc/female/head_movement/head_distribution": {
+      "plot_key": "case_67869/asc/female/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/asc/female/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/asc/female/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/asc/female/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/female/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/female/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/asc/female/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/asc/female/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/asc/female/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/asc/female/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/female/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/male/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/asc/male/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/male/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/asc/male/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/asc/male/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/asc/male/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/asc/male/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/asc/male/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/asc/male/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/asc/male/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/asc/male/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/asc/male/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/asc/male/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/asc/male/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/asc/male/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/asc/male/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/male/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/asc/male/head_movement/head_distribution": {
+      "plot_key": "case_67869/asc/male/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/asc/male/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/asc/male/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/asc/male/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/male/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/asc/male/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/asc/male/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/asc/male/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/asc/male/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/asc/male/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/asc/male/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/all/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/adhd/all/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/all/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/adhd/all/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/adhd/all/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/adhd/all/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/adhd/all/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/adhd/all/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/adhd/all/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/adhd/all/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/adhd/all/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/adhd/all/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/adhd/all/head_movement/head_distribution": {
+      "plot_key": "case_67869/adhd/all/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/adhd/all/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/adhd/all/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/adhd/all/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/all/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/adhd/all/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/adhd/all/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/adhd/all/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/adhd/all/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/all/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/female/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/adhd/female/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/female/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/adhd/female/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/adhd/female/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/adhd/female/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/adhd/female/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/adhd/female/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/adhd/female/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/adhd/female/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/adhd/female/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/adhd/female/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/adhd/female/head_movement/head_distribution": {
+      "plot_key": "case_67869/adhd/female/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/adhd/female/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/adhd/female/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/adhd/female/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/female/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/adhd/female/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/adhd/female/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/adhd/female/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/adhd/female/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/female/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/male/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/adhd/male/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/adhd/male/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/adhd/male/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/adhd/male/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/adhd/male/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/adhd/male/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/adhd/male/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/adhd/male/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/adhd/male/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/adhd/male/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/adhd/male/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/adhd/male/head_movement/head_distribution": {
+      "plot_key": "case_67869/adhd/male/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/adhd/male/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/adhd/male/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/adhd/male/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/adhd/male/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/adhd/male/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/adhd/male/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/adhd/male/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/adhd/male/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/adhd/male/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/all/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/mdd/all/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/all/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/mdd/all/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/mdd/all/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/mdd/all/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/mdd/all/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/mdd/all/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/mdd/all/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/mdd/all/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/mdd/all/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/mdd/all/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/mdd/all/head_movement/head_distribution": {
+      "plot_key": "case_67869/mdd/all/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/mdd/all/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/mdd/all/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/mdd/all/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/all/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/mdd/all/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/mdd/all/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/mdd/all/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/mdd/all/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/all/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/female/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/mdd/female/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/female/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/mdd/female/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/mdd/female/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/mdd/female/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/mdd/female/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/mdd/female/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/mdd/female/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/mdd/female/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/mdd/female/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/mdd/female/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/mdd/female/head_movement/head_distribution": {
+      "plot_key": "case_67869/mdd/female/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/mdd/female/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/mdd/female/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/mdd/female/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/female/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/mdd/female/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/mdd/female/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/mdd/female/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/mdd/female/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/female/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/male/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/mdd/male/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/mdd/male/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/mdd/male/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/mdd/male/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/mdd/male/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/mdd/male/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/mdd/male/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/mdd/male/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/mdd/male/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/mdd/male/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/mdd/male/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/mdd/male/head_movement/head_distribution": {
+      "plot_key": "case_67869/mdd/male/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/mdd/male/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/mdd/male/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/mdd/male/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/mdd/male/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/mdd/male/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/mdd/male/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/mdd/male/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/mdd/male/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/mdd/male/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/all/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/sad/all/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/all/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/sad/all/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/sad/all/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/all/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/sad/all/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/sad/all/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/sad/all/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/sad/all/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/sad/all/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/sad/all/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/sad/all/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/sad/all/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/sad/all/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/sad/all/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/all/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/sad/all/head_movement/head_distribution": {
+      "plot_key": "case_67869/sad/all/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/sad/all/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/sad/all/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/sad/all/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/all/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/all/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/sad/all/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/sad/all/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/sad/all/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/sad/all/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/all/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/female/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/sad/female/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/female/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/sad/female/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/sad/female/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/female/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/sad/female/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/sad/female/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/sad/female/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/sad/female/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/sad/female/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/sad/female/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/sad/female/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/sad/female/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/sad/female/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/sad/female/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/female/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/sad/female/head_movement/head_distribution": {
+      "plot_key": "case_67869/sad/female/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/sad/female/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/sad/female/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/sad/female/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/female/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/female/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/sad/female/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/sad/female/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/sad/female/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/sad/female/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/female/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/male/facial_expressivity/facial_trace__signal-all": {
+      "plot_key": "case_67869/sad/male/facial_expressivity/facial_trace__signal-all",
+      "svg_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-all.svg",
+      "png_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-all.png",
+      "preview_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-all.png",
+      "metadata_json_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-all.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/male/facial_expressivity/facial_trace__signal-smile": {
+      "plot_key": "case_67869/sad/male/facial_expressivity/facial_trace__signal-smile",
+      "svg_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-smile.svg",
+      "png_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-smile.png",
+      "preview_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-smile.png",
+      "metadata_json_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-smile.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust": {
+      "plot_key": "case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust",
+      "svg_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust.svg",
+      "png_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "preview_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust.png",
+      "metadata_json_path": "assets/case_67869/sad/male/facial_expressivity/facial_trace__signal-disgust.meta.json",
+      "plot_type": "facial_reference_trace"
+    },
+    "case_67869/sad/male/gaze/gaze_heatmap": {
+      "plot_key": "case_67869/sad/male/gaze/gaze_heatmap",
+      "svg_path": "assets/case_67869/sad/male/gaze/gaze_heatmap.svg",
+      "png_path": "assets/case_67869/sad/male/gaze/gaze_heatmap.png",
+      "preview_path": "assets/case_67869/sad/male/gaze/gaze_heatmap.png",
+      "metadata_json_path": "assets/case_67869/sad/male/gaze/gaze_heatmap.meta.json",
+      "plot_type": "gaze_heatmap"
+    },
+    "case_67869/sad/male/vocal_prosody/voice_distribution": {
+      "plot_key": "case_67869/sad/male/vocal_prosody/voice_distribution",
+      "svg_path": "assets/case_67869/sad/male/vocal_prosody/voice_distribution.svg",
+      "png_path": "assets/case_67869/sad/male/vocal_prosody/voice_distribution.png",
+      "preview_path": "assets/case_67869/sad/male/vocal_prosody/voice_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/male/vocal_prosody/voice_distribution.meta.json",
+      "plot_type": "violin_distribution"
+    },
+    "case_67869/sad/male/head_movement/head_distribution": {
+      "plot_key": "case_67869/sad/male/head_movement/head_distribution",
+      "svg_path": "assets/case_67869/sad/male/head_movement/head_distribution.svg",
+      "png_path": "assets/case_67869/sad/male/head_movement/head_distribution.png",
+      "preview_path": "assets/case_67869/sad/male/head_movement/head_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/male/head_movement/head_distribution.meta.json",
+      "plot_type": "box_distribution"
+    },
+    "case_67869/sad/male/mimicry/mimicry_distribution": {
+      "plot_key": "case_67869/sad/male/mimicry/mimicry_distribution",
+      "svg_path": "assets/case_67869/sad/male/mimicry/mimicry_distribution.svg",
+      "png_path": "assets/case_67869/sad/male/mimicry/mimicry_distribution.png",
+      "preview_path": "assets/case_67869/sad/male/mimicry/mimicry_distribution.png",
+      "metadata_json_path": "assets/case_67869/sad/male/mimicry/mimicry_distribution.meta.json",
+      "plot_type": "box_distribution"
+    }
+  }
+}

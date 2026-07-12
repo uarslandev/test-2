@@ -1,0 +1,25 @@
+{
+  "plot_key": "case_67869/asc/all/facial_expressivity/facial_trace__signal-smile",
+  "svg_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.svg",
+  "png_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.png",
+  "preview_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.png",
+  "metadata_json_path": "assets/case_67869/asc/all/facial_expressivity/facial_trace__signal-smile.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "asc",
+  "reference_group_display": "Autism spectrum condition (ASC)",
+  "gender_context": "all",
+  "participant_id": "67869",
+  "prototype_id": null,
+  "plot_type": "facial_reference_trace",
+  "signal_category": "smile",
+  "signal_category_display": "Smile-related AUs",
+  "feature_names_shown": [
+    "Smile-related AUs"
+  ],
+  "raw_trace_columns": [
+    "AU06_r",
+    "AU12_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 160
+}

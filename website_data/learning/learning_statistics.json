@@ -1,0 +1,684 @@
+{
+  "facial": [
+    {
+      "feature_id": "facial::smile_intensity",
+      "display_name": "Smile intensity",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.6023,
+          "std": 0.4522,
+          "median": 0.544,
+          "iqr": 0.6795
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.4651,
+          "std": 0.4484,
+          "median": 0.35,
+          "iqr": 0.5579
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.3537,
+          "std": 0.297,
+          "median": 0.2816,
+          "iqr": 0.3628
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.4396,
+          "std": 0.3956,
+          "median": 0.3873,
+          "iqr": 0.4662
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.5888,
+          "std": 0.4846,
+          "median": 0.4644,
+          "iqr": 0.7763
+        }
+      }
+    },
+    {
+      "feature_id": "facial::smile_variability",
+      "display_name": "Smile variability",
+      "unit": "AU intensity SD",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.2765,
+          "std": 0.1516,
+          "median": 0.2662,
+          "iqr": 0.173
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.2125,
+          "std": 0.1526,
+          "median": 0.197,
+          "iqr": 0.1949
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.2825,
+          "std": 0.1786,
+          "median": 0.2525,
+          "iqr": 0.2794
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.2396,
+          "std": 0.1602,
+          "median": 0.2224,
+          "iqr": 0.1808
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.2512,
+          "std": 0.1328,
+          "median": 0.2322,
+          "iqr": 0.2093
+        }
+      }
+    },
+    {
+      "feature_id": "facial::brow_lowering",
+      "display_name": "Brow lowering / negative facial affect",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.5377,
+          "std": 0.7035,
+          "median": 0.2684,
+          "iqr": 0.7145
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.4954,
+          "std": 0.6031,
+          "median": 0.2188,
+          "iqr": 0.7812
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.4466,
+          "std": 0.5017,
+          "median": 0.3021,
+          "iqr": 0.5084
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.4604,
+          "std": 0.5765,
+          "median": 0.1816,
+          "iqr": 0.8575
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.3088,
+          "std": 0.4384,
+          "median": 0.1051,
+          "iqr": 0.3728
+        }
+      }
+    },
+    {
+      "feature_id": "facial::overall_facial_expressivity",
+      "display_name": "Overall facial expressivity",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.6437,
+          "std": 0.2011,
+          "median": 0.6296,
+          "iqr": 0.2886
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.6025,
+          "std": 0.2055,
+          "median": 0.5814,
+          "iqr": 0.2885
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.4565,
+          "std": 0.1099,
+          "median": 0.4813,
+          "iqr": 0.127
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.5453,
+          "std": 0.2033,
+          "median": 0.5114,
+          "iqr": 0.228
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.5459,
+          "std": 0.1782,
+          "median": 0.5299,
+          "iqr": 0.3
+        }
+      }
+    }
+  ],
+  "gaze": [
+    {
+      "feature_id": "gaze::time_looking_at_screen",
+      "display_name": "Time looking at screen",
+      "unit": "proportion (0-1)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.7378,
+          "std": 0.2619,
+          "median": 0.8387,
+          "iqr": 0.3263
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.6654,
+          "std": 0.305,
+          "median": 0.7939,
+          "iqr": 0.4175
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.6293,
+          "std": 0.3483,
+          "median": 0.8204,
+          "iqr": 0.5966
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.686,
+          "std": 0.3018,
+          "median": 0.7875,
+          "iqr": 0.3491
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.7652,
+          "std": 0.244,
+          "median": 0.8432,
+          "iqr": 0.2472
+        }
+      }
+    },
+    {
+      "feature_id": "gaze::horizontal_gaze_variability",
+      "display_name": "Horizontal gaze variability",
+      "unit": "radians (SD)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 0.03,
+          "std": 0.0139,
+          "median": 0.027,
+          "iqr": 0.0177
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 0.0425,
+          "std": 0.0296,
+          "median": 0.034,
+          "iqr": 0.0306
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.0355,
+          "std": 0.0189,
+          "median": 0.0312,
+          "iqr": 0.0233
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 0.0348,
+          "std": 0.0162,
+          "median": 0.0337,
+          "iqr": 0.0136
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.0402,
+          "std": 0.0242,
+          "median": 0.0352,
+          "iqr": 0.0286
+        }
+      }
+    }
+  ],
+  "voice": [
+    {
+      "feature_id": "voice::pitch_variability",
+      "display_name": "Pitch variability",
+      "unit": "semitones",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 8.3437,
+          "std": 4.8272,
+          "median": 7.5569,
+          "iqr": 4.6322
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 10.6151,
+          "std": 6.1791,
+          "median": 9.0092,
+          "iqr": 7.2859
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 7.5832,
+          "std": 3.4878,
+          "median": 6.4439,
+          "iqr": 5.0342
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 7.133,
+          "std": 3.1109,
+          "median": 6.7738,
+          "iqr": 4.5365
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 8.154,
+          "std": 4.1455,
+          "median": 8.0046,
+          "iqr": 6.9389
+        }
+      }
+    },
+    {
+      "feature_id": "voice::loudness_variability",
+      "display_name": "Loudness variability",
+      "unit": "normalized SD",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 1.0071,
+          "std": 0.2399,
+          "median": 0.9646,
+          "iqr": 0.2392
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 1.0422,
+          "std": 0.2281,
+          "median": 1.0191,
+          "iqr": 0.2679
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 1.0791,
+          "std": 0.33,
+          "median": 1.0127,
+          "iqr": 0.2674
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 1.0699,
+          "std": 0.1887,
+          "median": 1.0778,
+          "iqr": 0.2304
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 0.9803,
+          "std": 0.1764,
+          "median": 0.929,
+          "iqr": 0.2758
+        }
+      }
+    },
+    {
+      "feature_id": "voice::speech_rate",
+      "display_name": "Speech rate",
+      "unit": "segments / second",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 1.5914,
+          "std": 0.6697,
+          "median": 1.487,
+          "iqr": 0.8568
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 1.6478,
+          "std": 0.7774,
+          "median": 1.4841,
+          "iqr": 0.8664
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 1.1958,
+          "std": 0.5055,
+          "median": 1.052,
+          "iqr": 0.4913
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 1.6723,
+          "std": 0.3933,
+          "median": 1.652,
+          "iqr": 0.6213
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 1.2354,
+          "std": 0.4274,
+          "median": 1.1694,
+          "iqr": 0.57
+        }
+      }
+    }
+  ],
+  "head": [
+    {
+      "feature_id": "head::nodding_activity",
+      "display_name": "Nodding activity",
+      "unit": "degrees (SD)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 1.5525,
+          "std": 0.7877,
+          "median": 1.3629,
+          "iqr": 0.6758
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 1.6888,
+          "std": 1.2668,
+          "median": 1.3706,
+          "iqr": 0.8065
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 1.9879,
+          "std": 0.6209,
+          "median": 1.9472,
+          "iqr": 0.797
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 2.2277,
+          "std": 1.7467,
+          "median": 1.7072,
+          "iqr": 1.3235
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 1.6878,
+          "std": 0.7228,
+          "median": 1.587,
+          "iqr": 0.639
+        }
+      }
+    },
+    {
+      "feature_id": "head::nodding_variability",
+      "display_name": "Nodding variability",
+      "unit": "degrees (IQR)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 1.9396,
+          "std": 1.0996,
+          "median": 1.6353,
+          "iqr": 0.9889
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 2.0917,
+          "std": 1.7065,
+          "median": 1.7236,
+          "iqr": 1.1083
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 2.334,
+          "std": 0.8119,
+          "median": 2.1963,
+          "iqr": 0.5873
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 2.5888,
+          "std": 2.0011,
+          "median": 1.8788,
+          "iqr": 1.8072
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 1.9961,
+          "std": 0.8792,
+          "median": 1.8729,
+          "iqr": 1.0367
+        }
+      }
+    },
+    {
+      "feature_id": "head::horizontal_head_movement",
+      "display_name": "Horizontal head movement",
+      "unit": "degrees (SD)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 176,
+          "mean": 1.1138,
+          "std": 0.6172,
+          "median": 0.942,
+          "iqr": 0.7161
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 154,
+          "mean": 1.3532,
+          "std": 1.4014,
+          "median": 0.9709,
+          "iqr": 0.8455
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 1.6495,
+          "std": 0.8293,
+          "median": 1.3446,
+          "iqr": 1.0296
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 29,
+          "mean": 1.7419,
+          "std": 1.1433,
+          "median": 1.4371,
+          "iqr": 1.5253
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 40,
+          "mean": 1.3886,
+          "std": 0.9017,
+          "median": 1.1874,
+          "iqr": 1.0373
+        }
+      }
+    }
+  ],
+  "mimicry": [
+    {
+      "feature_id": "mimicry::peak_smile_alignment",
+      "display_name": "Peak smile alignment",
+      "unit": "correlation (-1 to 1)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 174,
+          "mean": 0.2008,
+          "std": 0.118,
+          "median": 0.1915,
+          "iqr": 0.1581
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 152,
+          "mean": 0.1722,
+          "std": 0.1088,
+          "median": 0.1663,
+          "iqr": 0.1458
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.1971,
+          "std": 0.156,
+          "median": 0.1608,
+          "iqr": 0.208
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 28,
+          "mean": 0.1873,
+          "std": 0.1606,
+          "median": 0.1822,
+          "iqr": 0.2165
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 39,
+          "mean": 0.1488,
+          "std": 0.122,
+          "median": 0.1192,
+          "iqr": 0.1475
+        }
+      }
+    },
+    {
+      "feature_id": "mimicry::peak_smile_pattern_similarity",
+      "display_name": "Peak smile-pattern similarity",
+      "unit": "cosine similarity (0-1)",
+      "tier": "primary",
+      "groups": {
+        "control": {
+          "n": 186,
+          "valid_n": 174,
+          "mean": 0.8619,
+          "std": 0.1632,
+          "median": 0.9474,
+          "iqr": 0.226
+        },
+        "asc": {
+          "n": 160,
+          "valid_n": 152,
+          "mean": 0.8291,
+          "std": 0.2003,
+          "median": 0.8994,
+          "iqr": 0.1988
+        },
+        "adhd": {
+          "n": 17,
+          "valid_n": 17,
+          "mean": 0.8488,
+          "std": 0.2044,
+          "median": 0.9806,
+          "iqr": 0.2668
+        },
+        "mdd": {
+          "n": 29,
+          "valid_n": 28,
+          "mean": 0.8534,
+          "std": 0.211,
+          "median": 0.9364,
+          "iqr": 0.2337
+        },
+        "sad": {
+          "n": 40,
+          "valid_n": 39,
+          "mean": 0.905,
+          "std": 0.1817,
+          "median": 0.9729,
+          "iqr": 0.0788
+        }
+      }
+    }
+  ]
+}

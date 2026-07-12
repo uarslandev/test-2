@@ -1,0 +1,25 @@
+{
+  "plot_key": "learning/adhd/female/facial_expressivity/facial_trace__signal-disgust",
+  "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.svg",
+  "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.png",
+  "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.png",
+  "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "adhd",
+  "reference_group_display": "ADHD",
+  "gender_context": "female",
+  "participant_id": null,
+  "prototype_id": "1350",
+  "plot_type": "facial_reference_trace",
+  "signal_category": "disgust",
+  "signal_category_display": "Negative-affect AUs",
+  "feature_names_shown": [
+    "Negative-affect AUs"
+  ],
+  "raw_trace_columns": [
+    "AU04_r",
+    "AU09_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 13
+}

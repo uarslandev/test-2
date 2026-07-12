@@ -1,0 +1,56 @@
+{
+  "participant_id": "67869",
+  "task": "multilabel_condition_estimation",
+  "note": "Independent per-condition scores; NOT normalized to sum to 100.",
+  "conditions": [
+    {
+      "condition": "ASD",
+      "condition_display": "Autism spectrum condition (ASC)",
+      "score": 0.006,
+      "score_raw": 0.006022962741553783,
+      "threshold": 0.11,
+      "threshold_selection_method": "youden_j",
+      "crosses_threshold": false,
+      "train_positive_count": 188,
+      "train_negative_count": 303,
+      "used_fallback": false
+    },
+    {
+      "condition": "ADHD",
+      "condition_display": "ADHD",
+      "score": 0.7662,
+      "score_raw": 0.7662146687507629,
+      "threshold": 0.05,
+      "threshold_selection_method": "youden_j",
+      "crosses_threshold": true,
+      "train_positive_count": 76,
+      "train_negative_count": 415,
+      "used_fallback": false
+    },
+    {
+      "condition": "MDD",
+      "condition_display": "Depressive disorder (MDD/DD)",
+      "score": 0.0045,
+      "score_raw": 0.004462783690541983,
+      "threshold": 0.13,
+      "threshold_selection_method": "youden_j",
+      "crosses_threshold": false,
+      "train_positive_count": 135,
+      "train_negative_count": 356,
+      "used_fallback": false
+    },
+    {
+      "condition": "SAD",
+      "condition_display": "Social anxiety disorder (SAD)",
+      "score": 0.6602,
+      "score_raw": 0.6602119207382202,
+      "threshold": 0.05,
+      "threshold_selection_method": "youden_j",
+      "crosses_threshold": true,
+      "train_positive_count": 84,
+      "train_negative_count": 407,
+      "used_fallback": false
+    }
+  ],
+  "disclaimer": "Condition scores are decision support only and must not be interpreted as diagnoses."
+}

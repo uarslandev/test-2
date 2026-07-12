@@ -1,0 +1,242 @@
+{
+  "n_participants_total": 508,
+  "n_participants_excluding_held_out": 507,
+  "held_out_participant_excluded": true,
+  "website_features_resolved": 23,
+  "website_features_unresolved": 1,
+  "feature_quality": [
+    {
+      "feature_id": "facial::smile_intensity",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "facial::smile_variability",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "facial::brow_lowering",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "facial::brow_lowering_variability",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "facial::overall_facial_expressivity",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "facial::overall_facial_expressivity_variability",
+      "modality": "facial",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "gaze::time_looking_at_screen",
+      "modality": "gaze",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "gaze::time_outside_screen",
+      "modality": "gaze",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "gaze::horizontal_gaze_variability",
+      "modality": "gaze",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "gaze::vertical_gaze_variability",
+      "modality": "gaze",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "voice::pitch_variability",
+      "modality": "voice",
+      "n_subjects": 507,
+      "valid_n": 416,
+      "missingness": 0.1795
+    },
+    {
+      "feature_id": "voice::loudness_variability",
+      "modality": "voice",
+      "n_subjects": 507,
+      "valid_n": 416,
+      "missingness": 0.1795
+    },
+    {
+      "feature_id": "voice::speech_rate",
+      "modality": "voice",
+      "n_subjects": 507,
+      "valid_n": 416,
+      "missingness": 0.1795
+    },
+    {
+      "feature_id": "voice::speech_rate_variability",
+      "modality": "voice",
+      "n_subjects": 507,
+      "valid_n": 416,
+      "missingness": 0.1795
+    },
+    {
+      "feature_id": "head::nodding_activity",
+      "modality": "head",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "head::nodding_variability",
+      "modality": "head",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "head::horizontal_head_movement",
+      "modality": "head",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "head::horizontal_head_movement_variability",
+      "modality": "head",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "mimicry::peak_smile_alignment",
+      "modality": "mimicry",
+      "n_subjects": 507,
+      "valid_n": 483,
+      "missingness": 0.0473
+    },
+    {
+      "feature_id": "mimicry::peak_smile_pattern_similarity",
+      "modality": "mimicry",
+      "n_subjects": 507,
+      "valid_n": 483,
+      "missingness": 0.0473
+    },
+    {
+      "feature_id": "mimicry::response_delay",
+      "modality": "mimicry",
+      "n_subjects": 507,
+      "valid_n": 483,
+      "missingness": 0.0473
+    },
+    {
+      "feature_id": "mimicry::normalized_expression_distance",
+      "modality": "mimicry",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    },
+    {
+      "feature_id": "mimicry::granger_temporal_dependency",
+      "modality": "mimicry",
+      "n_subjects": 507,
+      "valid_n": 491,
+      "missingness": 0.0316
+    }
+  ],
+  "screening_training_n": 366,
+  "screening_oof_auroc": 0.7689,
+  "multilabel_thresholds": [
+    {
+      "condition": "ASD",
+      "selected_threshold": 0.11,
+      "threshold_selection_method": "youden_j",
+      "selection_reason": "optimized_threshold",
+      "sensitivity": 0.8245,
+      "specificity": 0.5908,
+      "precision": 0.5556,
+      "recall": 0.8245,
+      "f1": 0.6638,
+      "youden_j": 0.4152,
+      "auroc": 0.7832,
+      "auprc": 0.7294,
+      "n_positive_cases": 188,
+      "n_negative_cases": 303,
+      "estimated_from": "training_out_of_fold_loocv"
+    },
+    {
+      "condition": "ADHD",
+      "selected_threshold": 0.05,
+      "threshold_selection_method": "youden_j",
+      "selection_reason": "optimized_threshold",
+      "sensitivity": 0.5526,
+      "specificity": 0.8265,
+      "precision": 0.3684,
+      "recall": 0.5526,
+      "f1": 0.4421,
+      "youden_j": 0.3791,
+      "auroc": 0.6981,
+      "auprc": 0.3417,
+      "n_positive_cases": 76,
+      "n_negative_cases": 415,
+      "estimated_from": "training_out_of_fold_loocv"
+    },
+    {
+      "condition": "MDD",
+      "selected_threshold": 0.13,
+      "threshold_selection_method": "youden_j",
+      "selection_reason": "optimized_threshold",
+      "sensitivity": 0.6074,
+      "specificity": 0.6966,
+      "precision": 0.4316,
+      "recall": 0.6074,
+      "f1": 0.5046,
+      "youden_j": 0.304,
+      "auroc": 0.6876,
+      "auprc": 0.456,
+      "n_positive_cases": 135,
+      "n_negative_cases": 356,
+      "estimated_from": "training_out_of_fold_loocv"
+    },
+    {
+      "condition": "SAD",
+      "selected_threshold": 0.05,
+      "threshold_selection_method": "youden_j",
+      "selection_reason": "optimized_threshold",
+      "sensitivity": 0.369,
+      "specificity": 0.7297,
+      "precision": 0.2199,
+      "recall": 0.369,
+      "f1": 0.2756,
+      "youden_j": 0.0988,
+      "auroc": 0.5808,
+      "auprc": 0.256,
+      "n_positive_cases": 84,
+      "n_negative_cases": 407,
+      "estimated_from": "training_out_of_fold_loocv"
+    }
+  ]
+}

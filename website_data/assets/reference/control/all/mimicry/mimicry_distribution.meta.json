@@ -1,0 +1,24 @@
+{
+  "plot_key": "reference/control/all/mimicry/mimicry_distribution",
+  "svg_path": "assets/reference/control/all/mimicry/mimicry_distribution.svg",
+  "png_path": "assets/reference/control/all/mimicry/mimicry_distribution.png",
+  "preview_path": "assets/reference/control/all/mimicry/mimicry_distribution.png",
+  "metadata_json_path": "assets/reference/control/all/mimicry/mimicry_distribution.meta.json",
+  "modality": "mimicry",
+  "reference_group": "control",
+  "reference_group_display": "Control group",
+  "gender_context": "all",
+  "participant_id": null,
+  "prototype_id": null,
+  "plot_type": "box_distribution",
+  "feature_names_shown": [
+    "Peak smile alignment",
+    "Peak smile-pattern similarity"
+  ],
+  "feature_ids": [
+    "mimicry::peak_smile_alignment",
+    "mimicry::peak_smile_pattern_similarity"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 186
+}

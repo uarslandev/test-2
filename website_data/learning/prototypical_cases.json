@@ -1,0 +1,2390 @@
+{
+  "note": "Prototypes are real participants nearest the group median (held-out excluded).",
+  "prototypes": [
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "all",
+      "prototype_participant_id": "UV368972",
+      "distance_to_group_median": 0.168,
+      "n_group_members": 186,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.6061,
+        "facial::smile_variability": 0.2702,
+        "facial::brow_lowering": 0.2789,
+        "facial::overall_facial_expressivity": 0.6111
+      },
+      "assets": {
+        "learning/control/all/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/control/all/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/all/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/control/all/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/all/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/control/all/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "female",
+      "prototype_participant_id": "29952",
+      "distance_to_group_median": 0.4373,
+      "n_group_members": 40,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.6596,
+        "facial::smile_variability": 0.3044,
+        "facial::brow_lowering": 0.0034,
+        "facial::overall_facial_expressivity": 0.5999
+      },
+      "assets": {
+        "learning/control/female/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/control/female/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/female/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/control/female/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/female/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/control/female/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "male",
+      "prototype_participant_id": "DQ571687",
+      "distance_to_group_median": 0.2071,
+      "n_group_members": 32,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.5586,
+        "facial::smile_variability": 0.2491,
+        "facial::brow_lowering": 0.1028,
+        "facial::overall_facial_expressivity": 0.5526
+      },
+      "assets": {
+        "learning/control/male/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/control/male/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-control__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/male/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/control/male/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-control__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/control/male/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/control/male/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-control__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-01-062",
+      "distance_to_group_median": 0.2791,
+      "n_group_members": 160,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.3893,
+        "facial::smile_variability": 0.1694,
+        "facial::brow_lowering": 0.139,
+        "facial::overall_facial_expressivity": 0.6105
+      },
+      "assets": {
+        "learning/asc/all/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/asc/all/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/all/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/asc/all/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/all/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/asc/all/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "female",
+      "prototype_participant_id": "92562",
+      "distance_to_group_median": 0.8134,
+      "n_group_members": 8,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.4522,
+        "facial::smile_variability": 0.3676,
+        "facial::brow_lowering": 1.0354,
+        "facial::overall_facial_expressivity": 0.7182
+      },
+      "assets": {
+        "learning/asc/female/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/asc/female/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/female/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/asc/female/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/female/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/asc/female/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "male",
+      "prototype_participant_id": "DM195412",
+      "distance_to_group_median": 1.1664,
+      "n_group_members": 8,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.5795,
+        "facial::smile_variability": 0.2612,
+        "facial::brow_lowering": 0.0,
+        "facial::overall_facial_expressivity": 0.776
+      },
+      "assets": {
+        "learning/asc/male/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/asc/male/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-asc__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/male/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/asc/male/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-asc__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/asc/male/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/asc/male/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-asc__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "all",
+      "prototype_participant_id": "1350",
+      "distance_to_group_median": 0.691,
+      "n_group_members": 17,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.2662,
+        "facial::smile_variability": 0.3493,
+        "facial::brow_lowering": 0.4723,
+        "facial::overall_facial_expressivity": 0.5094
+      },
+      "assets": {
+        "learning/adhd/all/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/adhd/all/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/all/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/adhd/all/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/all/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/adhd/all/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "female",
+      "prototype_participant_id": "1350",
+      "distance_to_group_median": 0.1603,
+      "n_group_members": 13,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.2662,
+        "facial::smile_variability": 0.3493,
+        "facial::brow_lowering": 0.4723,
+        "facial::overall_facial_expressivity": 0.5094
+      },
+      "assets": {
+        "learning/adhd/female/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/adhd/female/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/female/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/adhd/female/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/female/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/adhd/female/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "male",
+      "prototype_participant_id": "988",
+      "distance_to_group_median": 0.3101,
+      "n_group_members": 4,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.0688,
+        "facial::smile_variability": 0.1003,
+        "facial::brow_lowering": 0.3021,
+        "facial::overall_facial_expressivity": 0.4151
+      },
+      "assets": {
+        "learning/adhd/male/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/adhd/male/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-adhd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/male/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/adhd/male/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/adhd/male/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/adhd/male/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-adhd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "all",
+      "prototype_participant_id": "16896",
+      "distance_to_group_median": 0.55,
+      "n_group_members": 29,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.5576,
+        "facial::smile_variability": 0.1943,
+        "facial::brow_lowering": 0.0127,
+        "facial::overall_facial_expressivity": 0.5061
+      },
+      "assets": {
+        "learning/mdd/all/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/mdd/all/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/all/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/mdd/all/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/all/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/mdd/all/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "female",
+      "prototype_participant_id": "HS221444",
+      "distance_to_group_median": 0.5521,
+      "n_group_members": 17,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.3398,
+        "facial::smile_variability": 0.3013,
+        "facial::brow_lowering": 0.1006,
+        "facial::overall_facial_expressivity": 0.4548
+      },
+      "assets": {
+        "learning/mdd/female/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/mdd/female/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/female/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/mdd/female/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/female/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/mdd/female/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "male",
+      "prototype_participant_id": "37139",
+      "distance_to_group_median": 0.8492,
+      "n_group_members": 12,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.2117,
+        "facial::smile_variability": 0.1613,
+        "facial::brow_lowering": 0.5407,
+        "facial::overall_facial_expressivity": 0.7342
+      },
+      "assets": {
+        "learning/mdd/male/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/mdd/male/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-mdd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/male/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/mdd/male/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-mdd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/mdd/male/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/mdd/male/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-81-213",
+      "distance_to_group_median": 0.2509,
+      "n_group_members": 40,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.4772,
+        "facial::smile_variability": 0.2071,
+        "facial::brow_lowering": 0.1231,
+        "facial::overall_facial_expressivity": 0.5018
+      },
+      "assets": {
+        "learning/sad/all/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/sad/all/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/all/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/sad/all/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/all/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/sad/all/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-all.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-all.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-all.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "female",
+      "prototype_participant_id": "FK815797",
+      "distance_to_group_median": 1.1429,
+      "n_group_members": 4,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.3752,
+        "facial::smile_variability": 0.15,
+        "facial::brow_lowering": 0.9942,
+        "facial::overall_facial_expressivity": 0.5128
+      },
+      "assets": {
+        "learning/sad/female/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/sad/female/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/female/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/sad/female/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/female/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/sad/female/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-female.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-female.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-female.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "facial",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "male",
+      "prototype_participant_id": "11030",
+      "distance_to_group_median": 1.0699,
+      "n_group_members": 3,
+      "feature_ids": [
+        "facial::smile_intensity",
+        "facial::smile_variability",
+        "facial::brow_lowering",
+        "facial::overall_facial_expressivity"
+      ],
+      "feature_values": {
+        "facial::smile_intensity": 0.0001,
+        "facial::smile_variability": 0.0009,
+        "facial::brow_lowering": 0.0964,
+        "facial::overall_facial_expressivity": 0.2567
+      },
+      "assets": {
+        "learning/sad/male/facial_expressivity/facial_trace__signal-all": {
+          "plot_key": "learning/sad/male/facial_expressivity/facial_trace__signal-all",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/male/facial_expressivity/facial_trace__signal-smile": {
+          "plot_key": "learning/sad/male/facial_expressivity/facial_trace__signal-smile",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-sad__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        },
+        "learning/sad/male/facial_expressivity/facial_trace__signal-disgust": {
+          "plot_key": "learning/sad/male/facial_expressivity/facial_trace__signal-disgust",
+          "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-male.svg",
+          "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-male.png",
+          "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-sad__gender-male.meta.json",
+          "plot_type": "facial_reference_trace"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-94-008",
+      "distance_to_group_median": 0.1066,
+      "n_group_members": 186,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.86,
+        "gaze::horizontal_gaze_variability": 0.026
+      },
+      "assets": {
+        "learning/control/all/gaze/gaze_heatmap": {
+          "plot_key": "learning/control/all/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-all.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-all.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-all.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "female",
+      "prototype_participant_id": "UD534715",
+      "distance_to_group_median": 0.0321,
+      "n_group_members": 40,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.7812,
+        "gaze::horizontal_gaze_variability": 0.0286
+      },
+      "assets": {
+        "learning/control/female/gaze/gaze_heatmap": {
+          "plot_key": "learning/control/female/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-female.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-female.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-female.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "male",
+      "prototype_participant_id": "UG429428",
+      "distance_to_group_median": 0.2104,
+      "n_group_members": 32,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8949,
+        "gaze::horizontal_gaze_variability": 0.0285
+      },
+      "assets": {
+        "learning/control/male/gaze/gaze_heatmap": {
+          "plot_key": "learning/control/male/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-04-003",
+      "distance_to_group_median": 0.0441,
+      "n_group_members": 160,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8074,
+        "gaze::horizontal_gaze_variability": 0.034
+      },
+      "assets": {
+        "learning/asc/all/gaze/gaze_heatmap": {
+          "plot_key": "learning/asc/all/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-all.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-all.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-all.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "female",
+      "prototype_participant_id": "VA087261",
+      "distance_to_group_median": 0.3757,
+      "n_group_members": 8,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8,
+        "gaze::horizontal_gaze_variability": 0.0319
+      },
+      "assets": {
+        "learning/asc/female/gaze/gaze_heatmap": {
+          "plot_key": "learning/asc/female/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-female.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-female.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-female.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "male",
+      "prototype_participant_id": "XU914716",
+      "distance_to_group_median": 0.472,
+      "n_group_members": 8,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8522,
+        "gaze::horizontal_gaze_variability": 0.0464
+      },
+      "assets": {
+        "learning/asc/male/gaze/gaze_heatmap": {
+          "plot_key": "learning/asc/male/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-male.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-male.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-asc__gender-male.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "all",
+      "prototype_participant_id": "1418",
+      "distance_to_group_median": 0.116,
+      "n_group_members": 17,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8411,
+        "gaze::horizontal_gaze_variability": 0.0331
+      },
+      "assets": {
+        "learning/adhd/all/gaze/gaze_heatmap": {
+          "plot_key": "learning/adhd/all/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-all.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "female",
+      "prototype_participant_id": "1418",
+      "distance_to_group_median": 0.0901,
+      "n_group_members": 13,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8411,
+        "gaze::horizontal_gaze_variability": 0.0331
+      },
+      "assets": {
+        "learning/adhd/female/gaze/gaze_heatmap": {
+          "plot_key": "learning/adhd/female/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-female.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "male",
+      "prototype_participant_id": "988",
+      "distance_to_group_median": 0.2738,
+      "n_group_members": 4,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.2742,
+        "gaze::horizontal_gaze_variability": 0.0132
+      },
+      "assets": {
+        "learning/adhd/male/gaze/gaze_heatmap": {
+          "plot_key": "learning/adhd/male/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-adhd__gender-male.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "all",
+      "prototype_participant_id": "1333",
+      "distance_to_group_median": 0.114,
+      "n_group_members": 29,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.819,
+        "gaze::horizontal_gaze_variability": 0.0345
+      },
+      "assets": {
+        "learning/mdd/all/gaze/gaze_heatmap": {
+          "plot_key": "learning/mdd/all/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "female",
+      "prototype_participant_id": "679",
+      "distance_to_group_median": 0.0,
+      "n_group_members": 17,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.7415,
+        "gaze::horizontal_gaze_variability": 0.0337
+      },
+      "assets": {
+        "learning/mdd/female/gaze/gaze_heatmap": {
+          "plot_key": "learning/mdd/female/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-female.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "male",
+      "prototype_participant_id": "51242",
+      "distance_to_group_median": 0.1186,
+      "n_group_members": 12,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.7925,
+        "gaze::horizontal_gaze_variability": 0.0361
+      },
+      "assets": {
+        "learning/mdd/male/gaze/gaze_heatmap": {
+          "plot_key": "learning/mdd/male/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-male.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-81-039",
+      "distance_to_group_median": 0.1173,
+      "n_group_members": 40,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.8376,
+        "gaze::horizontal_gaze_variability": 0.0379
+      },
+      "assets": {
+        "learning/sad/all/gaze/gaze_heatmap": {
+          "plot_key": "learning/sad/all/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-all.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-all.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-all.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "female",
+      "prototype_participant_id": "AL836112",
+      "distance_to_group_median": 0.3219,
+      "n_group_members": 4,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.9226,
+        "gaze::horizontal_gaze_variability": 0.0249
+      },
+      "assets": {
+        "learning/sad/female/gaze/gaze_heatmap": {
+          "plot_key": "learning/sad/female/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-female.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-female.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-female.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "gaze",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "male",
+      "prototype_participant_id": "11030",
+      "distance_to_group_median": 0.0,
+      "n_group_members": 3,
+      "feature_ids": [
+        "gaze::time_looking_at_screen",
+        "gaze::horizontal_gaze_variability"
+      ],
+      "feature_values": {
+        "gaze::time_looking_at_screen": 0.9562,
+        "gaze::horizontal_gaze_variability": 0.021
+      },
+      "assets": {
+        "learning/sad/male/gaze/gaze_heatmap": {
+          "plot_key": "learning/sad/male/gaze/gaze_heatmap",
+          "svg_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.svg",
+          "png_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.png",
+          "preview_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-sad__gender-male.meta.json",
+          "plot_type": "gaze_heatmap"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-94-053",
+      "distance_to_group_median": 0.118,
+      "n_group_members": 186,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 7.11,
+        "voice::loudness_variability": 0.9671,
+        "voice::speech_rate": 1.5355
+      },
+      "assets": {
+        "learning/control/all/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/control/all/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-all.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-all.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-all.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "female",
+      "prototype_participant_id": "XK988979",
+      "distance_to_group_median": 0.1711,
+      "n_group_members": 40,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 4.9389,
+        "voice::loudness_variability": 1.0566,
+        "voice::speech_rate": 1.5036
+      },
+      "assets": {
+        "learning/control/female/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/control/female/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-female.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "male",
+      "prototype_participant_id": "SL123551",
+      "distance_to_group_median": 0.3107,
+      "n_group_members": 32,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 5.8648,
+        "voice::loudness_variability": 0.9649,
+        "voice::speech_rate": 1.8607
+      },
+      "assets": {
+        "learning/control/male/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/control/male/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-male.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-male.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-control__gender-male.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-02-064",
+      "distance_to_group_median": 0.3942,
+      "n_group_members": 160,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 10.4464,
+        "voice::loudness_variability": 0.9472,
+        "voice::speech_rate": 1.5183
+      },
+      "assets": {
+        "learning/asc/all/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/asc/all/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-all.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-all.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-all.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "female",
+      "prototype_participant_id": "XR573957",
+      "distance_to_group_median": 0.7046,
+      "n_group_members": 8,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 4.1363,
+        "voice::loudness_variability": 1.072,
+        "voice::speech_rate": 1.3637
+      },
+      "assets": {
+        "learning/asc/female/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/asc/female/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-female.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-female.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-female.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "male",
+      "prototype_participant_id": "PP667322",
+      "distance_to_group_median": 0.6134,
+      "n_group_members": 8,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 5.2864,
+        "voice::loudness_variability": 0.9144,
+        "voice::speech_rate": 1.4813
+      },
+      "assets": {
+        "learning/asc/male/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/asc/male/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-male.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-male.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-asc__gender-male.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "all",
+      "prototype_participant_id": "1334",
+      "distance_to_group_median": 0.6058,
+      "n_group_members": 17,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 5.6567,
+        "voice::loudness_variability": 0.9903,
+        "voice::speech_rate": 1.3341
+      },
+      "assets": {
+        "learning/adhd/all/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/adhd/all/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-all.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "female",
+      "prototype_participant_id": "22980",
+      "distance_to_group_median": 0.5725,
+      "n_group_members": 13,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 6.6241,
+        "voice::loudness_variability": 0.9591,
+        "voice::speech_rate": 1.3519
+      },
+      "assets": {
+        "learning/adhd/female/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/adhd/female/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "male",
+      "prototype_participant_id": "17770",
+      "distance_to_group_median": 0.7879,
+      "n_group_members": 4,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 4.0932,
+        "voice::loudness_variability": 1.0439,
+        "voice::speech_rate": 1.1457
+      },
+      "assets": {
+        "learning/adhd/male/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/adhd/male/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-male.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "all",
+      "prototype_participant_id": "HB613993",
+      "distance_to_group_median": 0.2862,
+      "n_group_members": 29,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 6.3934,
+        "voice::loudness_variability": 1.0291,
+        "voice::speech_rate": 1.6446
+      },
+      "assets": {
+        "learning/mdd/all/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/mdd/all/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-all.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "female",
+      "prototype_participant_id": "HB613993",
+      "distance_to_group_median": 0.3479,
+      "n_group_members": 17,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 6.3934,
+        "voice::loudness_variability": 1.0291,
+        "voice::speech_rate": 1.6446
+      },
+      "assets": {
+        "learning/mdd/female/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/mdd/female/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-female.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "male",
+      "prototype_participant_id": "QL214527",
+      "distance_to_group_median": 0.5783,
+      "n_group_members": 12,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 4.3079,
+        "voice::loudness_variability": 1.1816,
+        "voice::speech_rate": 1.6457
+      },
+      "assets": {
+        "learning/mdd/male/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/mdd/male/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-mdd__gender-male.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-81-181",
+      "distance_to_group_median": 0.3593,
+      "n_group_members": 40,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 8.8422,
+        "voice::loudness_variability": 0.8983,
+        "voice::speech_rate": 1.0664
+      },
+      "assets": {
+        "learning/sad/all/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/sad/all/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-all.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-all.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-all.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "female",
+      "prototype_participant_id": "AL836112",
+      "distance_to_group_median": 0.7223,
+      "n_group_members": 4,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 11.4637,
+        "voice::loudness_variability": 1.1882,
+        "voice::speech_rate": 1.7484
+      },
+      "assets": {
+        "learning/sad/female/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/sad/female/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-female.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-female.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-female.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "voice",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "male",
+      "prototype_participant_id": "ZX622868",
+      "distance_to_group_median": 0.0,
+      "n_group_members": 3,
+      "feature_ids": [
+        "voice::pitch_variability",
+        "voice::loudness_variability",
+        "voice::speech_rate"
+      ],
+      "feature_values": {
+        "voice::pitch_variability": 4.8583,
+        "voice::loudness_variability": 1.1272,
+        "voice::speech_rate": 1.5994
+      },
+      "assets": {
+        "learning/sad/male/vocal_prosody/voice_distribution": {
+          "plot_key": "learning/sad/male/vocal_prosody/voice_distribution",
+          "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-male.svg",
+          "png_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-male.png",
+          "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-sad__gender-male.meta.json",
+          "plot_type": "violin_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-94-054",
+      "distance_to_group_median": 0.0075,
+      "n_group_members": 186,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.3664,
+        "head::nodding_variability": 1.6401,
+        "head::horizontal_head_movement": 0.9394
+      },
+      "assets": {
+        "learning/control/all/head_movement/head_distribution": {
+          "plot_key": "learning/control/all/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-control__gender-all.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-control__gender-all.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-control__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "female",
+      "prototype_participant_id": "KD385355",
+      "distance_to_group_median": 0.2839,
+      "n_group_members": 40,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.56,
+        "head::nodding_variability": 1.7045,
+        "head::horizontal_head_movement": 0.9653
+      },
+      "assets": {
+        "learning/control/female/head_movement/head_distribution": {
+          "plot_key": "learning/control/female/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-control__gender-female.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-control__gender-female.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-control__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "male",
+      "prototype_participant_id": "ST268519",
+      "distance_to_group_median": 0.1909,
+      "n_group_members": 32,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.3394,
+        "head::nodding_variability": 1.4825,
+        "head::horizontal_head_movement": 1.0803
+      },
+      "assets": {
+        "learning/control/male/head_movement/head_distribution": {
+          "plot_key": "learning/control/male/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-control__gender-male.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-control__gender-male.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-control__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "all",
+      "prototype_participant_id": "1331",
+      "distance_to_group_median": 0.0492,
+      "n_group_members": 160,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.3973,
+        "head::nodding_variability": 1.6592,
+        "head::horizontal_head_movement": 0.9381
+      },
+      "assets": {
+        "learning/asc/all/head_movement/head_distribution": {
+          "plot_key": "learning/asc/all/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "female",
+      "prototype_participant_id": "YN534972",
+      "distance_to_group_median": 0.1151,
+      "n_group_members": 8,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.6882,
+        "head::nodding_variability": 2.2656,
+        "head::horizontal_head_movement": 1.1394
+      },
+      "assets": {
+        "learning/asc/female/head_movement/head_distribution": {
+          "plot_key": "learning/asc/female/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-asc__gender-female.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-asc__gender-female.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-asc__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "male",
+      "prototype_participant_id": "AW432825",
+      "distance_to_group_median": 0.6192,
+      "n_group_members": 8,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.5851,
+        "head::nodding_variability": 2.0149,
+        "head::horizontal_head_movement": 1.1615
+      },
+      "assets": {
+        "learning/asc/male/head_movement/head_distribution": {
+          "plot_key": "learning/asc/male/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-asc__gender-male.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-asc__gender-male.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-asc__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "all",
+      "prototype_participant_id": "11145",
+      "distance_to_group_median": 0.3815,
+      "n_group_members": 17,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.7566,
+        "head::nodding_variability": 2.065,
+        "head::horizontal_head_movement": 1.4762
+      },
+      "assets": {
+        "learning/adhd/all/head_movement/head_distribution": {
+          "plot_key": "learning/adhd/all/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "female",
+      "prototype_participant_id": "11145",
+      "distance_to_group_median": 0.456,
+      "n_group_members": 13,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.7566,
+        "head::nodding_variability": 2.065,
+        "head::horizontal_head_movement": 1.4762
+      },
+      "assets": {
+        "learning/adhd/female/head_movement/head_distribution": {
+          "plot_key": "learning/adhd/female/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "male",
+      "prototype_participant_id": "11235",
+      "distance_to_group_median": 0.7546,
+      "n_group_members": 4,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 2.4064,
+        "head::nodding_variability": 1.9886,
+        "head::horizontal_head_movement": 1.2622
+      },
+      "assets": {
+        "learning/adhd/male/head_movement/head_distribution": {
+          "plot_key": "learning/adhd/male/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-adhd__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "all",
+      "prototype_participant_id": "NL598558",
+      "distance_to_group_median": 0.0501,
+      "n_group_members": 29,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.7072,
+        "head::nodding_variability": 1.9791,
+        "head::horizontal_head_movement": 1.4371
+      },
+      "assets": {
+        "learning/mdd/all/head_movement/head_distribution": {
+          "plot_key": "learning/mdd/all/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "female",
+      "prototype_participant_id": "NL598558",
+      "distance_to_group_median": 0.093,
+      "n_group_members": 17,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.7072,
+        "head::nodding_variability": 1.9791,
+        "head::horizontal_head_movement": 1.4371
+      },
+      "assets": {
+        "learning/mdd/female/head_movement/head_distribution": {
+          "plot_key": "learning/mdd/female/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "male",
+      "prototype_participant_id": "LT276136",
+      "distance_to_group_median": 0.1488,
+      "n_group_members": 12,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.6153,
+        "head::nodding_variability": 1.6091,
+        "head::horizontal_head_movement": 1.3784
+      },
+      "assets": {
+        "learning/mdd/male/head_movement/head_distribution": {
+          "plot_key": "learning/mdd/male/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-mdd__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-81-189",
+      "distance_to_group_median": 0.1941,
+      "n_group_members": 40,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.6677,
+        "head::nodding_variability": 1.8096,
+        "head::horizontal_head_movement": 1.0598
+      },
+      "assets": {
+        "learning/sad/all/head_movement/head_distribution": {
+          "plot_key": "learning/sad/all/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-sad__gender-all.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-sad__gender-all.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-sad__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "female",
+      "prototype_participant_id": "AT537872",
+      "distance_to_group_median": 0.5232,
+      "n_group_members": 4,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 1.459,
+        "head::nodding_variability": 1.8168,
+        "head::horizontal_head_movement": 0.8022
+      },
+      "assets": {
+        "learning/sad/female/head_movement/head_distribution": {
+          "plot_key": "learning/sad/female/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-sad__gender-female.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-sad__gender-female.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-sad__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "head",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "male",
+      "prototype_participant_id": "ZX622868",
+      "distance_to_group_median": 1.1074,
+      "n_group_members": 3,
+      "feature_ids": [
+        "head::nodding_activity",
+        "head::nodding_variability",
+        "head::horizontal_head_movement"
+      ],
+      "feature_values": {
+        "head::nodding_activity": 2.1891,
+        "head::nodding_variability": 2.8743,
+        "head::horizontal_head_movement": 0.606
+      },
+      "assets": {
+        "learning/sad/male/head_movement/head_distribution": {
+          "plot_key": "learning/sad/male/head_movement/head_distribution",
+          "svg_path": "assets/learning/head_movement/head_distribution__group-sad__gender-male.svg",
+          "png_path": "assets/learning/head_movement/head_distribution__group-sad__gender-male.png",
+          "preview_path": "assets/learning/head_movement/head_distribution__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/head_movement/head_distribution__group-sad__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-91-010",
+      "distance_to_group_median": 0.0087,
+      "n_group_members": 186,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.192,
+        "mimicry::peak_smile_pattern_similarity": 0.9487
+      },
+      "assets": {
+        "learning/control/all/mimicry/mimicry_distribution": {
+          "plot_key": "learning/control/all/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-all.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-all.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-all.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "female",
+      "prototype_participant_id": "VZ895495",
+      "distance_to_group_median": 0.0159,
+      "n_group_members": 40,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.2313,
+        "mimicry::peak_smile_pattern_similarity": 0.983
+      },
+      "assets": {
+        "learning/control/female/mimicry/mimicry_distribution": {
+          "plot_key": "learning/control/female/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-female.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-female.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-female.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "control",
+      "reference_group_display": "Control group",
+      "gender_context": "male",
+      "prototype_participant_id": "30180",
+      "distance_to_group_median": 0.2065,
+      "n_group_members": 32,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1685,
+        "mimicry::peak_smile_pattern_similarity": 0.9802
+      },
+      "assets": {
+        "learning/control/male/mimicry/mimicry_distribution": {
+          "plot_key": "learning/control/male/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-male.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-male.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-male.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-control__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-04-147",
+      "distance_to_group_median": 0.0488,
+      "n_group_members": 160,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1665,
+        "mimicry::peak_smile_pattern_similarity": 0.9092
+      },
+      "assets": {
+        "learning/asc/all/mimicry/mimicry_distribution": {
+          "plot_key": "learning/asc/all/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-all.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-all.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-all.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "female",
+      "prototype_participant_id": "VQ387961",
+      "distance_to_group_median": 0.0158,
+      "n_group_members": 8,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1736,
+        "mimicry::peak_smile_pattern_similarity": 0.8433
+      },
+      "assets": {
+        "learning/asc/female/mimicry/mimicry_distribution": {
+          "plot_key": "learning/asc/female/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-female.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-female.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-female.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "asc",
+      "reference_group_display": "Autism spectrum condition (ASC)",
+      "gender_context": "male",
+      "prototype_participant_id": "DM195412",
+      "distance_to_group_median": 0.1937,
+      "n_group_members": 8,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.0878,
+        "mimicry::peak_smile_pattern_similarity": 0.9977
+      },
+      "assets": {
+        "learning/asc/male/mimicry/mimicry_distribution": {
+          "plot_key": "learning/asc/male/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-male.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-male.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-male.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-asc__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "all",
+      "prototype_participant_id": "17770",
+      "distance_to_group_median": 0.1757,
+      "n_group_members": 17,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1841,
+        "mimicry::peak_smile_pattern_similarity": 0.9995
+      },
+      "assets": {
+        "learning/adhd/all/mimicry/mimicry_distribution": {
+          "plot_key": "learning/adhd/all/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-all.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-all.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-all.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "female",
+      "prototype_participant_id": "25544",
+      "distance_to_group_median": 0.0163,
+      "n_group_members": 13,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1316,
+        "mimicry::peak_smile_pattern_similarity": 0.9889
+      },
+      "assets": {
+        "learning/adhd/female/mimicry/mimicry_distribution": {
+          "plot_key": "learning/adhd/female/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-female.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-female.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-female.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "adhd",
+      "reference_group_display": "ADHD",
+      "gender_context": "male",
+      "prototype_participant_id": "11235",
+      "distance_to_group_median": 1.0554,
+      "n_group_members": 4,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1608,
+        "mimicry::peak_smile_pattern_similarity": 0.7292
+      },
+      "assets": {
+        "learning/adhd/male/mimicry/mimicry_distribution": {
+          "plot_key": "learning/adhd/male/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-adhd__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "all",
+      "prototype_participant_id": "BA691432",
+      "distance_to_group_median": 0.1892,
+      "n_group_members": 29,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.2012,
+        "mimicry::peak_smile_pattern_similarity": 0.9676
+      },
+      "assets": {
+        "learning/mdd/all/mimicry/mimicry_distribution": {
+          "plot_key": "learning/mdd/all/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-all.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-all.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-all.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "female",
+      "prototype_participant_id": "66078",
+      "distance_to_group_median": 0.0359,
+      "n_group_members": 17,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.2114,
+        "mimicry::peak_smile_pattern_similarity": 0.9975
+      },
+      "assets": {
+        "learning/mdd/female/mimicry/mimicry_distribution": {
+          "plot_key": "learning/mdd/female/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-female.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-female.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-female.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "mdd",
+      "reference_group_display": "Depressive disorder (MDD/DD)",
+      "gender_context": "male",
+      "prototype_participant_id": "UA333457",
+      "distance_to_group_median": 0.4109,
+      "n_group_members": 12,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.0455,
+        "mimicry::peak_smile_pattern_similarity": 0.888
+      },
+      "assets": {
+        "learning/mdd/male/mimicry/mimicry_distribution": {
+          "plot_key": "learning/mdd/male/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-male.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-male.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-male.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-mdd__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "all",
+      "prototype_participant_id": "pre-81-163",
+      "distance_to_group_median": 0.0747,
+      "n_group_members": 40,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1189,
+        "mimicry::peak_smile_pattern_similarity": 0.9865
+      },
+      "assets": {
+        "learning/sad/all/mimicry/mimicry_distribution": {
+          "plot_key": "learning/sad/all/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-all.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-all.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-all.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-all.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "female",
+      "prototype_participant_id": "FK815797",
+      "distance_to_group_median": 0.2511,
+      "n_group_members": 4,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1347,
+        "mimicry::peak_smile_pattern_similarity": 0.9989
+      },
+      "assets": {
+        "learning/sad/female/mimicry/mimicry_distribution": {
+          "plot_key": "learning/sad/female/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-female.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-female.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-female.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-female.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    },
+    {
+      "modality": "mimicry",
+      "reference_group": "sad",
+      "reference_group_display": "Social anxiety disorder (SAD)",
+      "gender_context": "male",
+      "prototype_participant_id": "ZX622868",
+      "distance_to_group_median": 0.1311,
+      "n_group_members": 3,
+      "feature_ids": [
+        "mimicry::peak_smile_alignment",
+        "mimicry::peak_smile_pattern_similarity"
+      ],
+      "feature_values": {
+        "mimicry::peak_smile_alignment": 0.1366,
+        "mimicry::peak_smile_pattern_similarity": 0.9531
+      },
+      "assets": {
+        "learning/sad/male/mimicry/mimicry_distribution": {
+          "plot_key": "learning/sad/male/mimicry/mimicry_distribution",
+          "svg_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-male.svg",
+          "png_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-male.png",
+          "preview_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-male.png",
+          "metadata_json_path": "assets/learning/mimicry/mimicry_distribution__group-sad__gender-male.meta.json",
+          "plot_type": "box_distribution"
+        }
+      }
+    }
+  ]
+}

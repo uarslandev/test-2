@@ -1,0 +1,33 @@
+{
+  "participant_id_excluded_from_training": "67869",
+  "feature_version": "v7_kit",
+  "datasets": [
+    "SIT_21_BI",
+    "SIT_23_WWU",
+    "SIT_23_HU",
+    "SIT_21_HU",
+    "SIT_22_HU",
+    "SIT_22_ALU"
+  ],
+  "model_feature_count": 1292,
+  "target_labels": [
+    "ASD",
+    "ADHD",
+    "MDD",
+    "SAD"
+  ],
+  "screening_definition": "ASD (positive) vs clean control / HG (negative)",
+  "multilabel_training_regime": "full",
+  "threshold_method_default": "youden",
+  "min_sensitivity": 0.85,
+  "random_seed": 42,
+  "xgb_params": {},
+  "software_versions": {
+    "python": "3.12.13",
+    "xgboost": "2.0.3",
+    "sklearn": "1.8.0",
+    "pandas": "2.3.2",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1"
+  }
+}

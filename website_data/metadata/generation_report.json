@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-06-14T10:57:03.344523+00:00",
+  "participant_id": "67869",
+  "parameters": {
+    "version": "v7_kit",
+    "threshold_method": "youden",
+    "random_seed": 42,
+    "min_sensitivity": 0.85,
+    "datasets": [
+      "SIT_21_BI",
+      "SIT_23_WWU",
+      "SIT_23_HU",
+      "SIT_21_HU",
+      "SIT_22_HU",
+      "SIT_22_ALU"
+    ],
+    "train_unimodal": true
+  },
+  "quality_checks": {
+    "held_out_excluded_from_training": true,
+    "held_out_excluded_from_reference_and_prototypes": true,
+    "no_target_leakage_in_features": true,
+    "label_columns_present": [
+      "ASD",
+      "ADHD",
+      "MDD",
+      "SAD",
+      "OTHER"
+    ],
+    "reference_group_counts_excluding_held_out": {
+      "control": 186,
+      "asc": 160,
+      "adhd": 17,
+      "mdd": 29,
+      "sad": 40
+    },
+    "empty_reference_groups": [],
+    "zero_std_zscore_guarded": true,
+    "low_positive_threshold_warnings": [],
+    "n_warnings": 1
+  },
+  "unresolved_website_features": [
+    {
+      "feature_id": "gaze::time_looking_at_partner",
+      "modality": "gaze",
+      "reason": "none of raw columns ['gaze_mean_view_looks_at_actress', 'gaze_mean_view_looks_at_face'] present",
+      "raw_feature_columns": [
+        "gaze_mean_view_looks_at_actress",
+        "gaze_mean_view_looks_at_face"
+      ],
+      "raw_feature_pattern": null
+    }
+  ],
+  "warnings": [
+    "Skipped website feature gaze::time_looking_at_partner: none of raw columns ['gaze_mean_view_looks_at_actress', 'gaze_mean_view_looks_at_face'] present"
+  ],
+  "files_created": [
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/screening_result.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/multilabel_condition_outputs.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/modality_outputs.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/in_depth_feature_tables.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/case_67869/patient_deviation_tables.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/reference/reference_group_stats.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/reference/pairwise_group_comparisons.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/reference/thresholds.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/learning/prototypical_cases.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/learning/learning_statistics.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/metadata/feature_dictionary.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/metadata/model_config.json",
+    "/homes/wsaakyan/projects/remote/sit-kit/experiments/acmmm26/generated/website_data/metadata/data_quality_summary.json"
+  ]
+}

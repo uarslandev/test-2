@@ -1,0 +1,27 @@
+{
+  "plot_key": "case_52160/control/male/facial_expressivity/facial_trace__signal-all",
+  "svg_path": "assets/case_52160/control/male/facial_expressivity/facial_trace__signal-all.svg",
+  "png_path": "assets/case_52160/control/male/facial_expressivity/facial_trace__signal-all.png",
+  "preview_path": "assets/case_52160/control/male/facial_expressivity/facial_trace__signal-all.png",
+  "metadata_json_path": "assets/case_52160/control/male/facial_expressivity/facial_trace__signal-all.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "control",
+  "reference_group_display": "Control group",
+  "gender_context": "male",
+  "participant_id": "52160",
+  "prototype_id": null,
+  "plot_type": "facial_reference_trace",
+  "signal_category": "all",
+  "signal_category_display": "Overall facial expressivity",
+  "feature_names_shown": [
+    "Overall facial expressivity"
+  ],
+  "raw_trace_columns": [
+    "AU06_r",
+    "AU12_r",
+    "AU04_r",
+    "AU09_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 32
+}

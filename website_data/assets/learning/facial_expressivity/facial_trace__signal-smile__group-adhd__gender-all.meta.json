@@ -1,0 +1,25 @@
+{
+  "plot_key": "learning/adhd/all/facial_expressivity/facial_trace__signal-smile",
+  "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.svg",
+  "png_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.png",
+  "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.png",
+  "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-smile__group-adhd__gender-all.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "adhd",
+  "reference_group_display": "ADHD",
+  "gender_context": "all",
+  "participant_id": null,
+  "prototype_id": "1350",
+  "plot_type": "facial_reference_trace",
+  "signal_category": "smile",
+  "signal_category_display": "Smile-related AUs",
+  "feature_names_shown": [
+    "Smile-related AUs"
+  ],
+  "raw_trace_columns": [
+    "AU06_r",
+    "AU12_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 17
+}

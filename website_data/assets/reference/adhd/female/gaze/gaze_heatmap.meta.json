@@ -1,0 +1,19 @@
+{
+  "plot_key": "reference/adhd/female/gaze/gaze_heatmap",
+  "svg_path": "assets/reference/adhd/female/gaze/gaze_heatmap.svg",
+  "png_path": "assets/reference/adhd/female/gaze/gaze_heatmap.png",
+  "preview_path": "assets/reference/adhd/female/gaze/gaze_heatmap.png",
+  "metadata_json_path": "assets/reference/adhd/female/gaze/gaze_heatmap.meta.json",
+  "modality": "gaze",
+  "reference_group": "adhd",
+  "reference_group_display": "ADHD",
+  "gender_context": "female",
+  "participant_id": null,
+  "prototype_id": null,
+  "plot_type": "gaze_heatmap",
+  "feature_names_shown": [
+    "Gaze density"
+  ],
+  "source_table": "gaze_raw[group==ADHD, gender==female]",
+  "reference_group_n": 13
+}

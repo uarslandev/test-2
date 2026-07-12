@@ -1,0 +1,19 @@
+{
+  "plot_key": "learning/mdd/all/gaze/gaze_heatmap",
+  "svg_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.svg",
+  "png_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.png",
+  "preview_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.png",
+  "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-mdd__gender-all.meta.json",
+  "modality": "gaze",
+  "reference_group": "mdd",
+  "reference_group_display": "Depressive disorder (MDD/DD)",
+  "gender_context": "all",
+  "participant_id": null,
+  "prototype_id": "1333",
+  "plot_type": "gaze_heatmap",
+  "feature_names_shown": [
+    "Gaze density"
+  ],
+  "source_table": "gaze_raw[id==1333]",
+  "reference_group_n": 29
+}

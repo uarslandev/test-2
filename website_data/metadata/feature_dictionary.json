@@ -1,0 +1,711 @@
+{
+  "dictionary_version": "1.0.0",
+  "segment_aliases": {
+    "setting_table": "neutral",
+    "liked_food": "joy",
+    "disliked_food": "disgust"
+  },
+  "default_primary_features": {
+    "facial": [
+      "smile_intensity",
+      "smile_variability",
+      "brow_lowering",
+      "overall_facial_expressivity"
+    ],
+    "gaze": [
+      "time_looking_at_screen",
+      "time_looking_at_partner",
+      "horizontal_gaze_variability"
+    ],
+    "voice": [
+      "pitch_variability",
+      "loudness_variability",
+      "speech_rate"
+    ],
+    "head": [
+      "nodding_activity",
+      "nodding_variability",
+      "horizontal_head_movement"
+    ],
+    "mimicry": [
+      "peak_smile_alignment",
+      "peak_smile_pattern_similarity"
+    ]
+  },
+  "features": [
+    {
+      "feature_id": "facial::smile_intensity",
+      "modality": "facial",
+      "key": "smile_intensity",
+      "display_name": "Smile intensity",
+      "short_description": "Mean intensity of smile-related action units (AU06 cheek raiser + AU12 lip-corner puller).",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "direction_interpretation": "Higher values indicate stronger, more frequent smiling.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "AU06_r_mean",
+        "AU12_r_mean"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "AU06_r_mean",
+        "AU12_r_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Mean intensity of smile-related action units (AU06 cheek raiser + AU12 lip-corner puller)."
+    },
+    {
+      "feature_id": "facial::smile_variability",
+      "modality": "facial",
+      "key": "smile_variability",
+      "display_name": "Smile variability",
+      "short_description": "Temporal variability (standard deviation) of smile-related action units (AU06 + AU12).",
+      "unit": "AU intensity SD",
+      "direction_interpretation": "Higher values indicate more variable / dynamic smiling over time.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "AU06_r_std",
+        "AU12_r_std"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "AU06_r_std",
+        "AU12_r_std"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Temporal variability (standard deviation) of smile-related action units (AU06 + AU12)."
+    },
+    {
+      "feature_id": "facial::brow_lowering",
+      "modality": "facial",
+      "key": "brow_lowering",
+      "display_name": "Brow lowering / negative facial affect",
+      "short_description": "Mean intensity of AU04 (brow lowerer), a marker of negative or concentrated affect.",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "direction_interpretation": "Higher values indicate more brow lowering / negative facial affect.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "AU04_r_mean"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "AU04_r_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Mean intensity of AU04 (brow lowerer), a marker of negative or concentrated affect."
+    },
+    {
+      "feature_id": "facial::brow_lowering_variability",
+      "modality": "facial",
+      "key": "brow_lowering_variability",
+      "display_name": "Brow lowering variability",
+      "short_description": "Temporal variability (standard deviation) of AU04 (brow lowerer).",
+      "unit": "AU intensity SD",
+      "direction_interpretation": "Higher values indicate more variable brow-lowering activity over time.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "AU04_r_std"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "AU04_r_std"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Temporal variability (standard deviation) of AU04 (brow lowerer)."
+    },
+    {
+      "feature_id": "facial::overall_facial_expressivity",
+      "modality": "facial",
+      "key": "overall_facial_expressivity",
+      "display_name": "Overall facial expressivity",
+      "short_description": "Mean intensity across all available action units.",
+      "unit": "AU intensity (0-5, OpenFace)",
+      "direction_interpretation": "Higher values indicate greater overall facial expressivity.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean_pattern",
+      "raw_feature_columns": [],
+      "raw_feature_pattern": "^AU\\d+_r_mean$",
+      "matched_columns": [
+        "AU01_r_mean",
+        "AU02_r_mean",
+        "AU04_r_mean",
+        "AU05_r_mean",
+        "AU06_r_mean",
+        "AU07_r_mean",
+        "AU09_r_mean",
+        "AU10_r_mean",
+        "AU12_r_mean",
+        "AU14_r_mean",
+        "AU15_r_mean",
+        "AU17_r_mean",
+        "AU20_r_mean",
+        "AU23_r_mean",
+        "AU25_r_mean",
+        "AU26_r_mean",
+        "AU45_r_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Mean intensity across all available action units."
+    },
+    {
+      "feature_id": "facial::overall_facial_expressivity_variability",
+      "modality": "facial",
+      "key": "overall_facial_expressivity_variability",
+      "display_name": "Overall facial expressivity variability",
+      "short_description": "Mean temporal variability (standard deviation) across all available action units.",
+      "unit": "AU intensity SD",
+      "direction_interpretation": "Higher values indicate more variable overall facial expressivity over time.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table",
+        "reference_group_context"
+      ],
+      "aggregation": "mean_pattern",
+      "raw_feature_columns": [],
+      "raw_feature_pattern": "^AU\\d+_r_std$",
+      "matched_columns": [
+        "AU01_r_std",
+        "AU02_r_std",
+        "AU04_r_std",
+        "AU05_r_std",
+        "AU06_r_std",
+        "AU07_r_std",
+        "AU09_r_std",
+        "AU10_r_std",
+        "AU12_r_std",
+        "AU14_r_std",
+        "AU15_r_std",
+        "AU17_r_std",
+        "AU20_r_std",
+        "AU23_r_std",
+        "AU25_r_std",
+        "AU26_r_std",
+        "AU45_r_std"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Mean temporal variability (standard deviation) across all available action units."
+    },
+    {
+      "feature_id": "gaze::time_looking_at_screen",
+      "modality": "gaze",
+      "key": "time_looking_at_screen",
+      "display_name": "Time looking at screen",
+      "short_description": "Proportion of valid gaze frames directed at the display region.",
+      "unit": "proportion (0-1)",
+      "direction_interpretation": "Higher values indicate more visual attention to the screen / stimulus.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "gaze_mean_view_looks_at_display"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "gaze_mean_view_looks_at_display"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Proportion of valid gaze frames directed at the display region."
+    },
+    {
+      "feature_id": "gaze::time_looking_at_partner",
+      "modality": "gaze",
+      "key": "time_looking_at_partner",
+      "display_name": "Time looking at interaction partner / face region",
+      "short_description": "Proportion of valid gaze frames directed at the actor / face region.",
+      "unit": "proportion (0-1)",
+      "direction_interpretation": "Higher values indicate more attention to the interaction partner's face.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "gaze_mean_view_looks_at_actress",
+        "gaze_mean_view_looks_at_face"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [],
+      "resolved": false,
+      "unresolved_reason": "none of raw columns ['gaze_mean_view_looks_at_actress', 'gaze_mean_view_looks_at_face'] present",
+      "tooltip": "Proportion of valid gaze frames directed at the actor / face region."
+    },
+    {
+      "feature_id": "gaze::time_outside_screen",
+      "modality": "gaze",
+      "key": "time_outside_screen",
+      "display_name": "Time outside screen area",
+      "short_description": "Proportion of valid gaze frames directed away from the display region.",
+      "unit": "proportion (0-1)",
+      "direction_interpretation": "Higher values indicate more gaze aversion / looking away from the screen.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table",
+        "reference_group_context"
+      ],
+      "aggregation": "one_minus_mean",
+      "raw_feature_columns": [
+        "gaze_mean_view_looks_at_display"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "gaze_mean_view_looks_at_display"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Proportion of valid gaze frames directed away from the display region."
+    },
+    {
+      "feature_id": "gaze::horizontal_gaze_variability",
+      "modality": "gaze",
+      "key": "horizontal_gaze_variability",
+      "display_name": "Horizontal gaze variability",
+      "short_description": "Standard deviation of the horizontal gaze angle.",
+      "unit": "radians (SD)",
+      "direction_interpretation": "Higher values indicate more horizontal eye-movement / scanning.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "gaze_std_angle_x"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "gaze_std_angle_x"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Standard deviation of the horizontal gaze angle."
+    },
+    {
+      "feature_id": "gaze::vertical_gaze_variability",
+      "modality": "gaze",
+      "key": "vertical_gaze_variability",
+      "display_name": "Vertical gaze variability",
+      "short_description": "Standard deviation of the vertical gaze angle.",
+      "unit": "radians (SD)",
+      "direction_interpretation": "Higher values indicate more vertical eye-movement / scanning.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "gaze_std_angle_y"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "gaze_std_angle_y"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Standard deviation of the vertical gaze angle."
+    },
+    {
+      "feature_id": "voice::pitch_variability",
+      "modality": "voice",
+      "key": "pitch_variability",
+      "display_name": "Pitch variability",
+      "short_description": "F0 (pitch) variability, percentile range 0-2 in semitones from 27.5 Hz.",
+      "unit": "semitones",
+      "direction_interpretation": "Higher values indicate more pitch modulation / melodic speech.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "F0 (pitch) variability, percentile range 0-2 in semitones from 27.5 Hz."
+    },
+    {
+      "feature_id": "voice::loudness_variability",
+      "modality": "voice",
+      "key": "loudness_variability",
+      "display_name": "Loudness variability",
+      "short_description": "Normalized standard deviation of loudness.",
+      "unit": "normalized SD",
+      "direction_interpretation": "Higher values indicate more dynamic / variable loudness.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "loudness_sma3_stddevNorm"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "loudness_sma3_stddevNorm"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Normalized standard deviation of loudness."
+    },
+    {
+      "feature_id": "voice::speech_rate",
+      "modality": "voice",
+      "key": "speech_rate",
+      "display_name": "Speech rate",
+      "short_description": "Voiced segments per second (proxy for speaking rate).",
+      "unit": "segments / second",
+      "direction_interpretation": "Higher values indicate faster speech.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "VoicedSegmentsPerSec"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "VoicedSegmentsPerSec"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Voiced segments per second (proxy for speaking rate)."
+    },
+    {
+      "feature_id": "voice::speech_rate_variability",
+      "modality": "voice",
+      "key": "speech_rate_variability",
+      "display_name": "Speech-rate variability",
+      "short_description": "Variability of voiced segments per second across SIT phases.",
+      "unit": "segments / second (SD)",
+      "direction_interpretation": "Higher values indicate more variable speaking rate across topics.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table"
+      ],
+      "aggregation": "std_across_segments",
+      "raw_feature_columns": [
+        "VoicedSegmentsPerSec"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "VoicedSegmentsPerSec"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Variability of voiced segments per second across SIT phases."
+    },
+    {
+      "feature_id": "head::nodding_activity",
+      "modality": "head",
+      "key": "nodding_activity",
+      "display_name": "Nodding activity",
+      "short_description": "Amount of vertical head-pose movement (standard deviation of head pitch).",
+      "unit": "degrees (SD)",
+      "direction_interpretation": "Higher values indicate more vertical head movement (nodding).",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "head_std_pitch"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "head_std_pitch"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Amount of vertical head-pose movement (standard deviation of head pitch)."
+    },
+    {
+      "feature_id": "head::nodding_variability",
+      "modality": "head",
+      "key": "nodding_variability",
+      "display_name": "Nodding variability",
+      "short_description": "Spread of vertical head-pose movement (inter-quartile range of head pitch).",
+      "unit": "degrees (IQR)",
+      "direction_interpretation": "Higher values indicate more variable vertical head movement.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "head_iqr_pitch"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "head_iqr_pitch"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Spread of vertical head-pose movement (inter-quartile range of head pitch)."
+    },
+    {
+      "feature_id": "head::horizontal_head_movement",
+      "modality": "head",
+      "key": "horizontal_head_movement",
+      "display_name": "Horizontal head movement",
+      "short_description": "Amount of lateral / yaw head movement (standard deviation of head yaw).",
+      "unit": "degrees (SD)",
+      "direction_interpretation": "Higher values indicate more horizontal head movement (head shaking / turning).",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "head_std_yaw"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "head_std_yaw"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Amount of lateral / yaw head movement (standard deviation of head yaw)."
+    },
+    {
+      "feature_id": "head::horizontal_head_movement_variability",
+      "modality": "head",
+      "key": "horizontal_head_movement_variability",
+      "display_name": "Horizontal head movement variability",
+      "short_description": "Spread of lateral / yaw head movement (inter-quartile range of head yaw).",
+      "unit": "degrees (IQR)",
+      "direction_interpretation": "Higher values indicate more variable horizontal head movement.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "head_iqr_yaw"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "head_iqr_yaw"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Spread of lateral / yaw head movement (inter-quartile range of head yaw)."
+    },
+    {
+      "feature_id": "mimicry::peak_smile_alignment",
+      "modality": "mimicry",
+      "key": "peak_smile_alignment",
+      "display_name": "Peak smile alignment",
+      "short_description": "Maximum lagged cross-correlation of smile action units with the interaction partner.",
+      "unit": "correlation (-1 to 1)",
+      "direction_interpretation": "Higher values indicate stronger temporal alignment of smiling with the partner.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context",
+        "model_output_explanations"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "mimicry_smile_max_corr_mean"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "mimicry_smile_max_corr_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Maximum lagged cross-correlation of smile action units with the interaction partner."
+    },
+    {
+      "feature_id": "mimicry::peak_smile_pattern_similarity",
+      "modality": "mimicry",
+      "key": "peak_smile_pattern_similarity",
+      "display_name": "Peak smile-pattern similarity",
+      "short_description": "Maximum lag-aware cosine similarity of smile action-unit trajectories with the partner.",
+      "unit": "cosine similarity (0-1)",
+      "direction_interpretation": "Higher values indicate more similar smile expression patterns to the partner.",
+      "higher_is_more": true,
+      "tier": "primary",
+      "include_in": [
+        "in_depth_table",
+        "learning_statistics",
+        "reference_group_context"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "mimicry_smile_max_cosine"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "mimicry_smile_max_cosine"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Maximum lag-aware cosine similarity of smile action-unit trajectories with the partner."
+    },
+    {
+      "feature_id": "mimicry::response_delay",
+      "modality": "mimicry",
+      "key": "response_delay",
+      "display_name": "Response delay",
+      "short_description": "Lag (in frames) at which the smile cross-correlation peaks.",
+      "unit": "frames",
+      "direction_interpretation": "Larger values indicate a longer delay before mirroring the partner's smile.",
+      "higher_is_more": true,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table"
+      ],
+      "aggregation": "mean",
+      "raw_feature_columns": [
+        "mimicry_smile_lag_at_max_mean"
+      ],
+      "raw_feature_pattern": null,
+      "matched_columns": [
+        "mimicry_smile_lag_at_max_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Lag (in frames) at which the smile cross-correlation peaks."
+    },
+    {
+      "feature_id": "mimicry::normalized_expression_distance",
+      "modality": "mimicry",
+      "key": "normalized_expression_distance",
+      "display_name": "Normalized expression distance",
+      "short_description": "Length-normalized dynamic-time-warping distance between participant and partner AU trajectories.",
+      "unit": "normalized DTW distance",
+      "direction_interpretation": "Higher values indicate less similar expression dynamics to the partner.",
+      "higher_is_more": false,
+      "tier": "advanced",
+      "include_in": [
+        "in_depth_table"
+      ],
+      "aggregation": "mean_pattern",
+      "raw_feature_columns": [],
+      "raw_feature_pattern": "^mimicry_.*mean_dtw_normalized$",
+      "matched_columns": [
+        "mimicry_all_selected_mean_dtw_normalized",
+        "mimicry_frown_disgust_mean_dtw_normalized",
+        "mimicry_smile_mean_dtw_normalized"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Length-normalized dynamic-time-warping distance between participant and partner AU trajectories."
+    },
+    {
+      "feature_id": "mimicry::granger_temporal_dependency",
+      "modality": "mimicry",
+      "key": "granger_temporal_dependency",
+      "display_name": "Granger-based temporal dependency",
+      "short_description": "Granger-causality-based directed dependency from partner to participant.",
+      "unit": "granger strength",
+      "direction_interpretation": "Higher values indicate stronger directed temporal dependency on the partner.",
+      "higher_is_more": true,
+      "tier": "experimental",
+      "include_in": [
+        "in_depth_table"
+      ],
+      "aggregation": "mean_pattern",
+      "raw_feature_columns": [],
+      "raw_feature_pattern": "^mimicry_.*granger_strength_mean$",
+      "matched_columns": [
+        "mimicry_all_selected_granger_strength_mean",
+        "mimicry_frown_disgust_granger_strength_mean",
+        "mimicry_smile_granger_strength_mean"
+      ],
+      "resolved": true,
+      "unresolved_reason": null,
+      "tooltip": "Granger-causality-based directed dependency from partner to participant."
+    }
+  ]
+}

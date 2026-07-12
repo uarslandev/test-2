@@ -1,0 +1,26 @@
+{
+  "plot_key": "learning/adhd/female/vocal_prosody/voice_distribution",
+  "svg_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.svg",
+  "png_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.png",
+  "preview_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.png",
+  "metadata_json_path": "assets/learning/vocal_prosody/voice_distribution__group-adhd__gender-female.meta.json",
+  "modality": "vocal_prosody",
+  "reference_group": "adhd",
+  "reference_group_display": "ADHD",
+  "gender_context": "female",
+  "participant_id": null,
+  "prototype_id": "22980",
+  "plot_type": "violin_distribution",
+  "feature_names_shown": [
+    "Pitch variability",
+    "Loudness variability",
+    "Speech rate"
+  ],
+  "feature_ids": [
+    "voice::pitch_variability",
+    "voice::loudness_variability",
+    "voice::speech_rate"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 13
+}

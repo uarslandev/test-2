@@ -1,0 +1,27 @@
+{
+  "plot_key": "learning/sad/female/facial_expressivity/facial_trace__signal-all",
+  "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.svg",
+  "png_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.png",
+  "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.png",
+  "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-all__group-sad__gender-female.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "sad",
+  "reference_group_display": "Social anxiety disorder (SAD)",
+  "gender_context": "female",
+  "participant_id": null,
+  "prototype_id": "FK815797",
+  "plot_type": "facial_reference_trace",
+  "signal_category": "all",
+  "signal_category_display": "Overall facial expressivity",
+  "feature_names_shown": [
+    "Overall facial expressivity"
+  ],
+  "raw_trace_columns": [
+    "AU06_r",
+    "AU12_r",
+    "AU04_r",
+    "AU09_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 4
+}

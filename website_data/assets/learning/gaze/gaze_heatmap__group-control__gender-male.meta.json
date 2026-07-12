@@ -1,0 +1,19 @@
+{
+  "plot_key": "learning/control/male/gaze/gaze_heatmap",
+  "svg_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.svg",
+  "png_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.png",
+  "preview_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.png",
+  "metadata_json_path": "assets/learning/gaze/gaze_heatmap__group-control__gender-male.meta.json",
+  "modality": "gaze",
+  "reference_group": "control",
+  "reference_group_display": "Control group",
+  "gender_context": "male",
+  "participant_id": null,
+  "prototype_id": "UG429428",
+  "plot_type": "gaze_heatmap",
+  "feature_names_shown": [
+    "Gaze density"
+  ],
+  "source_table": "gaze_raw[id==UG429428]",
+  "reference_group_n": 32
+}

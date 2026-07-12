@@ -1,0 +1,26 @@
+{
+  "plot_key": "case_67869/mdd/male/head_movement/head_distribution",
+  "svg_path": "assets/case_67869/mdd/male/head_movement/head_distribution.svg",
+  "png_path": "assets/case_67869/mdd/male/head_movement/head_distribution.png",
+  "preview_path": "assets/case_67869/mdd/male/head_movement/head_distribution.png",
+  "metadata_json_path": "assets/case_67869/mdd/male/head_movement/head_distribution.meta.json",
+  "modality": "head_movement",
+  "reference_group": "mdd",
+  "reference_group_display": "Depressive disorder (MDD/DD)",
+  "gender_context": "male",
+  "participant_id": "67869",
+  "prototype_id": null,
+  "plot_type": "box_distribution",
+  "feature_names_shown": [
+    "Nodding activity",
+    "Nodding variability",
+    "Horizontal head movement"
+  ],
+  "feature_ids": [
+    "head::nodding_activity",
+    "head::nodding_variability",
+    "head::horizontal_head_movement"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 12
+}

@@ -1,0 +1,25 @@
+{
+  "plot_key": "learning/mdd/male/facial_expressivity/facial_trace__signal-disgust",
+  "svg_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.svg",
+  "png_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.png",
+  "preview_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.png",
+  "metadata_json_path": "assets/learning/facial_expressivity/facial_trace__signal-disgust__group-mdd__gender-male.meta.json",
+  "modality": "facial_expressivity",
+  "reference_group": "mdd",
+  "reference_group_display": "Depressive disorder (MDD/DD)",
+  "gender_context": "male",
+  "participant_id": null,
+  "prototype_id": "37139",
+  "plot_type": "facial_reference_trace",
+  "signal_category": "disgust",
+  "signal_category_display": "Negative-affect AUs",
+  "feature_names_shown": [
+    "Negative-affect AUs"
+  ],
+  "raw_trace_columns": [
+    "AU04_r",
+    "AU09_r"
+  ],
+  "source_table": "facial_raw",
+  "reference_group_n": 12
+}

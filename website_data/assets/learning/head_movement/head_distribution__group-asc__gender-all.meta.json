@@ -1,0 +1,26 @@
+{
+  "plot_key": "learning/asc/all/head_movement/head_distribution",
+  "svg_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.svg",
+  "png_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.png",
+  "preview_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.png",
+  "metadata_json_path": "assets/learning/head_movement/head_distribution__group-asc__gender-all.meta.json",
+  "modality": "head_movement",
+  "reference_group": "asc",
+  "reference_group_display": "Autism spectrum condition (ASC)",
+  "gender_context": "all",
+  "participant_id": null,
+  "prototype_id": "1331",
+  "plot_type": "box_distribution",
+  "feature_names_shown": [
+    "Nodding activity",
+    "Nodding variability",
+    "Horizontal head movement"
+  ],
+  "feature_ids": [
+    "head::nodding_activity",
+    "head::nodding_variability",
+    "head::horizontal_head_movement"
+  ],
+  "source_table": "website_feature_table",
+  "reference_group_n": 160
+}
